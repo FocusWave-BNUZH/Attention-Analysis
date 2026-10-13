@@ -1,0 +1,6 @@
+Windows fatal exception: code 0xc06d007f
+
+Current thread 0x00006be0 (most recent call first):
+  File "D:\CondaEnvs\attention-behavior-formal\Lib\site-packages\numpy\lib\_function_base_impl.py", line 2887 in cov
+  File "D:\CondaEnvs\attention-behavior-formal\Lib\site-packages\numpy\lib\_function_base_impl.py", line 3015 in corrcoef
+  File "<string>", line 8 in <module>

@@ -1,0 +1,971 @@
+{
+  "files": 192,
+  "all_byte_identical": true,
+  "checks": [
+    {
+      "file": "payloads/9a0e27e04786/run_behavior_probe_window_sensitivity_20260831.py",
+      "byte_identical": true,
+      "syntax": "python_ast_pass"
+    },
+    {
+      "file": "payloads/91858eede7b3/science_v3.py",
+      "byte_identical": true,
+      "syntax": "python_ast_pass"
+    },
+    {
+      "file": "payloads/5ad249f62ee9/test_behavior_science_v3_contract.py",
+      "byte_identical": true,
+      "syntax": "python_ast_pass"
+    },
+    {
+      "file": "payloads/6ddddc1423f6/extract_nir_examples_20260831.py",
+      "byte_identical": true,
+      "syntax": "python_ast_pass"
+    },
+    {
+      "file": "payloads/548e3b628452/extract_rgb_examples_20260831.py",
+      "byte_identical": true,
+      "syntax": "python_ast_pass"
+    },
+    {
+      "file": "payloads/7ec408c707a2/nir_headmotion_correction_check_20260831.py",
+      "byte_identical": true,
+      "syntax": "python_ast_pass"
+    },
+    {
+      "file": "payloads/f8d2c7127a9e/regenerate_multimodal_figures_20260831.py",
+      "byte_identical": true,
+      "syntax": "python_ast_pass"
+    },
+    {
+      "file": "payloads/99f6218fb4d0/regenerate_nir_figures_pupil_only_20260831.py",
+      "byte_identical": true,
+      "syntax": "python_ast_pass"
+    },
+    {
+      "file": "payloads/e90a5fcb92f9/regenerate_rgb_blink_figures_20260831.py",
+      "byte_identical": true,
+      "syntax": "python_ast_pass"
+    },
+    {
+      "file": "payloads/04e43732d11b/maintain_rgb_formal_cohort.ps1",
+      "byte_identical": true,
+      "syntax": "not_applicable"
+    },
+    {
+      "file": "payloads/166eeaa09a3f/show_rgb_supervisor_status.ps1",
+      "byte_identical": true,
+      "syntax": "not_applicable"
+    },
+    {
+      "file": "payloads/241181bc94d3/onnx_cuda_runtime.py",
+      "byte_identical": true,
+      "syntax": "python_ast_pass"
+    },
+    {
+      "file": "payloads/8850ba54746d/ritnet_fullclass_qc.py",
+      "byte_identical": true,
+      "syntax": "python_ast_pass"
+    },
+    {
+      "file": "payloads/6c14bccf3d40/config.sampled.yaml",
+      "byte_identical": true,
+      "syntax": "not_applicable"
+    },
+    {
+      "file": "payloads/807b84d5396d/run_pipeline.py",
+      "byte_identical": true,
+      "syntax": "python_ast_pass"
+    },
+    {
+      "file": "payloads/69ef16ac6039/analysis_sets.py",
+      "byte_identical": true,
+      "syntax": "python_ast_pass"
+    },
+    {
+      "file": "payloads/513ad405e8ef/quality_admission.py",
+      "byte_identical": true,
+      "syntax": "python_ast_pass"
+    },
+    {
+      "file": "payloads/d8df03b399a2/prediction_archive.py",
+      "byte_identical": true,
+      "syntax": "python_ast_pass"
+    },
+    {
+      "file": "payloads/656473896e7c/test_task_b_analysis_set_audit.py",
+      "byte_identical": true,
+      "syntax": "python_ast_pass"
+    },
+    {
+      "file": "payloads/da78db19cf77/prediction_archive.py",
+      "byte_identical": true,
+      "syntax": "python_ast_pass"
+    },
+    {
+      "file": "payloads/fc5cbf311353/quality_admission.py",
+      "byte_identical": true,
+      "syntax": "python_ast_pass"
+    },
+    {
+      "file": "payloads/3ee1957027c0/task-b-analysis-set-audit.yml",
+      "byte_identical": true,
+      "syntax": "not_applicable"
+    },
+    {
+      "file": "payloads/e3fa7ee81768/test_task_b_analysis_set_audit.py",
+      "byte_identical": true,
+      "syntax": "python_ast_pass"
+    },
+    {
+      "file": "payloads/52862f7f8bd1/prediction_archive.py",
+      "byte_identical": true,
+      "syntax": "python_ast_pass"
+    },
+    {
+      "file": "payloads/64e0a30d4435/analysis_sets.py",
+      "byte_identical": true,
+      "syntax": "python_ast_pass"
+    },
+    {
+      "file": "payloads/6b695dc6aa98/quality_admission.py",
+      "byte_identical": true,
+      "syntax": "python_ast_pass"
+    },
+    {
+      "file": "payloads/d2032ea35846/test_pupil_blink_measurement.py",
+      "byte_identical": true,
+      "syntax": "python_ast_pass"
+    },
+    {
+      "file": "payloads/edeb8c588a13/pupil_blink_measurement_runner.py",
+      "byte_identical": true,
+      "syntax": "python_ast_pass"
+    },
+    {
+      "file": "payloads/5768a357c53a/pupil-blink-audit.yml",
+      "byte_identical": true,
+      "syntax": "not_applicable"
+    },
+    {
+      "file": "payloads/fb54bb3803db/test_pupil_blink_sync.py",
+      "byte_identical": true,
+      "syntax": "python_ast_pass"
+    },
+    {
+      "file": "payloads/3e5e7e116a1b/pupil-blink-audit.yml",
+      "byte_identical": true,
+      "syntax": "not_applicable"
+    },
+    {
+      "file": "payloads/60830cc99bb3/run_ocular_postfreeze_analysis.py",
+      "byte_identical": true,
+      "syntax": "python_ast_pass"
+    },
+    {
+      "file": "payloads/c03bcc6dbad3/ocular_postfreeze_figures.py",
+      "byte_identical": true,
+      "syntax": "python_ast_pass"
+    },
+    {
+      "file": "payloads/98da268f1a51/test_ocular_postfreeze_analysis.py",
+      "byte_identical": true,
+      "syntax": "python_ast_pass"
+    },
+    {
+      "file": "payloads/5678114e0c42/multimodal_fusion.yaml",
+      "byte_identical": true,
+      "syntax": "not_applicable"
+    },
+    {
+      "file": "payloads/0da91a2b327e/015-质量准入入口与验收_20260910.md",
+      "byte_identical": true,
+      "syntax": "not_applicable"
+    },
+    {
+      "file": "payloads/197c36b44cb9/README.md",
+      "byte_identical": true,
+      "syntax": "not_applicable"
+    },
+    {
+      "file": "payloads/e45233f94705/multimodal_fusion_analysis.py",
+      "byte_identical": true,
+      "syntax": "python_ast_pass"
+    },
+    {
+      "file": "payloads/4a53a008f178/alignment.py",
+      "byte_identical": true,
+      "syntax": "python_ast_pass"
+    },
+    {
+      "file": "payloads/d77923a6917f/quality_admission.py",
+      "byte_identical": true,
+      "syntax": "python_ast_pass"
+    },
+    {
+      "file": "payloads/9783807ecef3/runner.py",
+      "byte_identical": true,
+      "syntax": "python_ast_pass"
+    },
+    {
+      "file": "payloads/0f8143978d45/test_multimodal_fusion_analysis.py",
+      "byte_identical": true,
+      "syntax": "python_ast_pass"
+    },
+    {
+      "file": "payloads/16e293e0dd23/test_quality_admission.py",
+      "byte_identical": true,
+      "syntax": "python_ast_pass"
+    },
+    {
+      "file": "payloads/1ea371b6c578/mmwave-cardiopulmonary-ingest-audit-v1.md",
+      "byte_identical": true,
+      "syntax": "not_applicable"
+    },
+    {
+      "file": "payloads/fd13dc396cc4/mmwave-cardiopulmonary-time-lineage-evidence-v1.md",
+      "byte_identical": true,
+      "syntax": "not_applicable"
+    },
+    {
+      "file": "payloads/a939ff56fbf9/mmwave_cardiopulmonary_ingest_audit.py",
+      "byte_identical": true,
+      "syntax": "python_ast_pass"
+    },
+    {
+      "file": "payloads/c670a0e09ccb/mmwave_cardiopulmonary_ingest.py",
+      "byte_identical": true,
+      "syntax": "python_ast_pass"
+    },
+    {
+      "file": "payloads/bd8c0ed10ca3/test_mmwave_cardiopulmonary_ingest.py",
+      "byte_identical": true,
+      "syntax": "python_ast_pass"
+    },
+    {
+      "file": "payloads/c6cf6b78287e/mmwave-cardiopulmonary-ingest-audit-v1.md",
+      "byte_identical": true,
+      "syntax": "not_applicable"
+    },
+    {
+      "file": "payloads/2a578a1ea5d6/mmwave-cardiopulmonary-time-lineage-evidence-v1.md",
+      "byte_identical": true,
+      "syntax": "not_applicable"
+    },
+    {
+      "file": "payloads/615493f1d07c/mmwave_cardiopulmonary_ingest_audit.py",
+      "byte_identical": true,
+      "syntax": "python_ast_pass"
+    },
+    {
+      "file": "payloads/c50800d2deef/mmwave_cardiopulmonary_ingest.py",
+      "byte_identical": true,
+      "syntax": "python_ast_pass"
+    },
+    {
+      "file": "payloads/73b66c10b896/test_mmwave_cardiopulmonary_ingest.py",
+      "byte_identical": true,
+      "syntax": "python_ast_pass"
+    },
+    {
+      "file": "payloads/7c1ff3e89ef4/NIR_STATUS_TODAY.md",
+      "byte_identical": true,
+      "syntax": "not_applicable"
+    },
+    {
+      "file": "payloads/710221d969f0/REPOSITORY_SYNC.md",
+      "byte_identical": true,
+      "syntax": "not_applicable"
+    },
+    {
+      "file": "payloads/5bccc43b7583/NVIDIA-RITnet全分类补跑使用说明.md",
+      "byte_identical": true,
+      "syntax": "not_applicable"
+    },
+    {
+      "file": "payloads/964623e0ae4f/README.md",
+      "byte_identical": true,
+      "syntax": "not_applicable"
+    },
+    {
+      "file": "payloads/3670f6862cbe/NIR_STATUS_TODAY.md",
+      "byte_identical": true,
+      "syntax": "not_applicable"
+    },
+    {
+      "file": "payloads/478393c3f154/INSTALL.md",
+      "byte_identical": true,
+      "syntax": "not_applicable"
+    },
+    {
+      "file": "payloads/d4e9bdc03d60/README.md",
+      "byte_identical": true,
+      "syntax": "not_applicable"
+    },
+    {
+      "file": "payloads/6949f800e467/RUNBOOK.md",
+      "byte_identical": true,
+      "syntax": "not_applicable"
+    },
+    {
+      "file": "payloads/50da6e5d4dc9/nir_python_contract.py",
+      "byte_identical": true,
+      "syntax": "python_ast_pass"
+    },
+    {
+      "file": "payloads/2293431584a0/run_nvidia_final_topology.ps1",
+      "byte_identical": true,
+      "syntax": "not_applicable"
+    },
+    {
+      "file": "payloads/a7ac00ded2a8/run_nvidia_final_topology.ps1",
+      "byte_identical": true,
+      "syntax": "not_applicable"
+    },
+    {
+      "file": "payloads/f08550e37d2b/run_nvidia_final_topology.ps1",
+      "byte_identical": true,
+      "syntax": "not_applicable"
+    },
+    {
+      "file": "payloads/e57babbdbade/nir_python_contract.py",
+      "byte_identical": true,
+      "syntax": "python_ast_pass"
+    },
+    {
+      "file": "payloads/29f18144a43d/run_nvidia_final_topology.ps1",
+      "byte_identical": true,
+      "syntax": "not_applicable"
+    },
+    {
+      "file": "payloads/b05155b8fd48/run_ritnet_fullclass_batch.py",
+      "byte_identical": true,
+      "syntax": "python_ast_pass"
+    },
+    {
+      "file": "payloads/16fea7f584e1/run_ritnet_fullclass_extension.py",
+      "byte_identical": true,
+      "syntax": "python_ast_pass"
+    },
+    {
+      "file": "payloads/78b2bbc5dab1/run_ritnet_fullclass_native_batch.py",
+      "byte_identical": true,
+      "syntax": "python_ast_pass"
+    },
+    {
+      "file": "payloads/2cb8eb2f7b12/ritnet_fullclass_final_engine.py",
+      "byte_identical": true,
+      "syntax": "python_ast_pass"
+    },
+    {
+      "file": "payloads/6a3e2a9201d5/ritnet_fullclass_workstore.py",
+      "byte_identical": true,
+      "syntax": "python_ast_pass"
+    },
+    {
+      "file": "payloads/5246e776ce79/test_ritnet_fullclass_workstore.py",
+      "byte_identical": true,
+      "syntax": "python_ast_pass"
+    },
+    {
+      "file": "payloads/863825031ce2/run_ritnet_fullclass_extension.py",
+      "byte_identical": true,
+      "syntax": "python_ast_pass"
+    },
+    {
+      "file": "payloads/0883a38a284d/test_ritnet_fullclass_final_entrypoint.py",
+      "byte_identical": true,
+      "syntax": "python_ast_pass"
+    },
+    {
+      "file": "payloads/1653b37fa52a/run_ritnet_fullclass_extension.py",
+      "byte_identical": true,
+      "syntax": "python_ast_pass"
+    },
+    {
+      "file": "payloads/6c8facadab53/config.yaml",
+      "byte_identical": true,
+      "syntax": "not_applicable"
+    },
+    {
+      "file": "payloads/f71c3e34c75f/2026-08-28_NVIDIA_NIR_AMD_v7_semantic_port.md",
+      "byte_identical": true,
+      "syntax": "not_applicable"
+    },
+    {
+      "file": "payloads/740c18df8916/ritnet_fullclass_final_engine.py",
+      "byte_identical": true,
+      "syntax": "python_ast_pass"
+    },
+    {
+      "file": "payloads/5bc07cc080c7/ritnet_fullclass_metric_adapter.py",
+      "byte_identical": true,
+      "syntax": "python_ast_pass"
+    },
+    {
+      "file": "payloads/f8ed1450cba6/ritnet_fullclass_qc.py",
+      "byte_identical": true,
+      "syntax": "python_ast_pass"
+    },
+    {
+      "file": "payloads/4b7799a61f7f/ritnet_fullclass_schema.py",
+      "byte_identical": true,
+      "syntax": "python_ast_pass"
+    },
+    {
+      "file": "payloads/4d05c8139d63/ritnet_fullclass_source.py",
+      "byte_identical": true,
+      "syntax": "python_ast_pass"
+    },
+    {
+      "file": "payloads/ff18e38f667e/ritnet_fullclass_temporal.py",
+      "byte_identical": true,
+      "syntax": "python_ast_pass"
+    },
+    {
+      "file": "payloads/8fa7011950c8/ritnet_fullclass_uncertainty.py",
+      "byte_identical": true,
+      "syntax": "python_ast_pass"
+    },
+    {
+      "file": "payloads/9459dc0bcb4d/run_ritnet_fullclass_native_batch.py",
+      "byte_identical": true,
+      "syntax": "python_ast_pass"
+    },
+    {
+      "file": "payloads/647b144702b2/test_ritnet_fullclass_v7_contract.py",
+      "byte_identical": true,
+      "syntax": "python_ast_pass"
+    },
+    {
+      "file": "payloads/7b852e2191eb/benchmark_nir_fullclass_compact.py",
+      "byte_identical": true,
+      "syntax": "python_ast_pass"
+    },
+    {
+      "file": "payloads/0816d26dfb0e/verify_nir_fullclass_compact_parity.py",
+      "byte_identical": true,
+      "syntax": "python_ast_pass"
+    },
+    {
+      "file": "payloads/dca12dce4cf4/2026-08-28_NVIDIA_NIR_fullclass_production_walltime.md",
+      "byte_identical": true,
+      "syntax": "not_applicable"
+    },
+    {
+      "file": "payloads/0c1059aa5d7d/2026-08-28_NVIDIA_NIR_fullclass_stage_profile.md",
+      "byte_identical": true,
+      "syntax": "not_applicable"
+    },
+    {
+      "file": "payloads/8225e11dd64f/profile_nir_fullclass_stages.py",
+      "byte_identical": true,
+      "syntax": "python_ast_pass"
+    },
+    {
+      "file": "payloads/69fbfcbdad8d/2026-08-28_NVIDIA_NIR_fullclass_old_vs_current_benchmark.md",
+      "byte_identical": true,
+      "syntax": "not_applicable"
+    },
+    {
+      "file": "payloads/d3b761109010/benchmark_nir_fullclass.py",
+      "byte_identical": true,
+      "syntax": "python_ast_pass"
+    },
+    {
+      "file": "payloads/b804fed629fc/2026-08-28_NVIDIA_NIR_fullclass_performance_benchmark.md",
+      "byte_identical": true,
+      "syntax": "not_applicable"
+    },
+    {
+      "file": "payloads/ed4eb5b776c0/benchmark_nir_fullclass.py",
+      "byte_identical": true,
+      "syntax": "python_ast_pass"
+    },
+    {
+      "file": "payloads/1fb8a0cea82a/benchmark_nir_fullclass.py",
+      "byte_identical": true,
+      "syntax": "python_ast_pass"
+    },
+    {
+      "file": "payloads/829963593143/2026-08-28_NVIDIA_NIR_fullclass_identity_gate_repair.md",
+      "byte_identical": true,
+      "syntax": "not_applicable"
+    },
+    {
+      "file": "payloads/12613dc4ced7/2026-08-28_NVIDIA_NIR_fullclass_identity_gate_repair.md",
+      "byte_identical": true,
+      "syntax": "not_applicable"
+    },
+    {
+      "file": "payloads/50ca0d8a8894/ritnet_fullclass_final_completion.py",
+      "byte_identical": true,
+      "syntax": "python_ast_pass"
+    },
+    {
+      "file": "payloads/aee76101f61c/test_ritnet_fullclass_final_completion.py",
+      "byte_identical": true,
+      "syntax": "python_ast_pass"
+    },
+    {
+      "file": "payloads/b4586f02725d/2026-08-28_NVIDIA_NIR_fullclass重跑交接.md",
+      "byte_identical": true,
+      "syntax": "not_applicable"
+    },
+    {
+      "file": "payloads/fc2fb9489a63/2026-08-28_NVIDIA_NIR_fullclass重跑交接.md",
+      "byte_identical": true,
+      "syntax": "not_applicable"
+    },
+    {
+      "file": "payloads/a62f3223e050/ritnet_fullclass_source.py",
+      "byte_identical": true,
+      "syntax": "python_ast_pass"
+    },
+    {
+      "file": "payloads/373e39ff0a9f/test_ritnet_fullclass_native_batch.py",
+      "byte_identical": true,
+      "syntax": "python_ast_pass"
+    },
+    {
+      "file": "payloads/4843c044c910/ritnet_fullclass_source.py",
+      "byte_identical": true,
+      "syntax": "python_ast_pass"
+    },
+    {
+      "file": "payloads/108358dcdfa2/test_ritnet_fullclass_native_batch.py",
+      "byte_identical": true,
+      "syntax": "python_ast_pass"
+    },
+    {
+      "file": "payloads/02a8b03d6298/formal_completion.py",
+      "byte_identical": true,
+      "syntax": "python_ast_pass"
+    },
+    {
+      "file": "payloads/2e1e84afdfcd/ritnet_fullclass_source.py",
+      "byte_identical": true,
+      "syntax": "python_ast_pass"
+    },
+    {
+      "file": "payloads/5a471aa8969b/run_ritnet_fullclass_native_batch.py",
+      "byte_identical": true,
+      "syntax": "python_ast_pass"
+    },
+    {
+      "file": "payloads/acd97fde0334/test_ritnet_fullclass_native_batch.py",
+      "byte_identical": true,
+      "syntax": "python_ast_pass"
+    },
+    {
+      "file": "payloads/ff3bce380219/rgb_analysis.yaml",
+      "byte_identical": true,
+      "syntax": "not_applicable"
+    },
+    {
+      "file": "payloads/901e3e793c4f/face_formal_cuda.py",
+      "byte_identical": true,
+      "syntax": "python_ast_pass"
+    },
+    {
+      "file": "payloads/42bea4649d24/run_rgb_formal_cohort.ps1",
+      "byte_identical": true,
+      "syntax": "not_applicable"
+    },
+    {
+      "file": "payloads/24f49bef477e/motion.py",
+      "byte_identical": true,
+      "syntax": "python_ast_pass"
+    },
+    {
+      "file": "payloads/a1a3022b7941/REPOSITORY_SYNC.md",
+      "byte_identical": true,
+      "syntax": "not_applicable"
+    },
+    {
+      "file": "payloads/e0179fcce4c6/REPOSITORY_SYNC.md",
+      "byte_identical": true,
+      "syntax": "not_applicable"
+    },
+    {
+      "file": "payloads/cc25d2893d85/README.md",
+      "byte_identical": true,
+      "syntax": "not_applicable"
+    },
+    {
+      "file": "payloads/70f23d2720cc/README.md",
+      "byte_identical": true,
+      "syntax": "not_applicable"
+    },
+    {
+      "file": "payloads/c29cde9d6c30/README.md",
+      "byte_identical": true,
+      "syntax": "not_applicable"
+    },
+    {
+      "file": "payloads/61f5dfd92664/README.md",
+      "byte_identical": true,
+      "syntax": "not_applicable"
+    },
+    {
+      "file": "payloads/892a3a3c6417/README.md",
+      "byte_identical": true,
+      "syntax": "not_applicable"
+    },
+    {
+      "file": "payloads/c2779843874d/README.md",
+      "byte_identical": true,
+      "syntax": "not_applicable"
+    },
+    {
+      "file": "payloads/bffe14f31fb9/README.md",
+      "byte_identical": true,
+      "syntax": "not_applicable"
+    },
+    {
+      "file": "payloads/295f3cc5b7e9/README.md",
+      "byte_identical": true,
+      "syntax": "not_applicable"
+    },
+    {
+      "file": "payloads/8f6d4c4c2def/README.md",
+      "byte_identical": true,
+      "syntax": "not_applicable"
+    },
+    {
+      "file": "payloads/72a8de95a32e/README.md",
+      "byte_identical": true,
+      "syntax": "not_applicable"
+    },
+    {
+      "file": "payloads/f1682c709f41/README.md",
+      "byte_identical": true,
+      "syntax": "not_applicable"
+    },
+    {
+      "file": "payloads/ed050dc1e23a/README.md",
+      "byte_identical": true,
+      "syntax": "not_applicable"
+    },
+    {
+      "file": "payloads/16d9d294e71d/README.md",
+      "byte_identical": true,
+      "syntax": "not_applicable"
+    },
+    {
+      "file": "payloads/04e3093c09fd/README.md",
+      "byte_identical": true,
+      "syntax": "not_applicable"
+    },
+    {
+      "file": "payloads/13d439641c26/README.md",
+      "byte_identical": true,
+      "syntax": "not_applicable"
+    },
+    {
+      "file": "payloads/6093b178ec91/README.md",
+      "byte_identical": true,
+      "syntax": "not_applicable"
+    },
+    {
+      "file": "payloads/076d3bcfda5e/README.md",
+      "byte_identical": true,
+      "syntax": "not_applicable"
+    },
+    {
+      "file": "payloads/4cb8df946d73/README.md",
+      "byte_identical": true,
+      "syntax": "not_applicable"
+    },
+    {
+      "file": "payloads/67d7799c06dc/README.md",
+      "byte_identical": true,
+      "syntax": "not_applicable"
+    },
+    {
+      "file": "payloads/a1a22b41d99f/README.md",
+      "byte_identical": true,
+      "syntax": "not_applicable"
+    },
+    {
+      "file": "payloads/baa1bb742677/README.md",
+      "byte_identical": true,
+      "syntax": "not_applicable"
+    },
+    {
+      "file": "payloads/9c103122a3e6/README.md",
+      "byte_identical": true,
+      "syntax": "not_applicable"
+    },
+    {
+      "file": "payloads/8e2ab04400be/README.md",
+      "byte_identical": true,
+      "syntax": "not_applicable"
+    },
+    {
+      "file": "payloads/1390c4ab3913/README.md",
+      "byte_identical": true,
+      "syntax": "not_applicable"
+    },
+    {
+      "file": "payloads/b500c7119515/项目总览与架构.md",
+      "byte_identical": true,
+      "syntax": "not_applicable"
+    },
+    {
+      "file": "payloads/489f6e3b1b79/README.md",
+      "byte_identical": true,
+      "syntax": "not_applicable"
+    },
+    {
+      "file": "payloads/8dd0a3511e14/00-目录与映射.md",
+      "byte_identical": true,
+      "syntax": "not_applicable"
+    },
+    {
+      "file": "payloads/e52e76419f36/08-23-01-仓库结构与NIR复现入口整理工作记录.md",
+      "byte_identical": true,
+      "syntax": "not_applicable"
+    },
+    {
+      "file": "payloads/1adea1a24ddd/SETUP.md",
+      "byte_identical": true,
+      "syntax": "not_applicable"
+    },
+    {
+      "file": "payloads/70422881c01a/081-NIR路线演化与当前技术选择.md",
+      "byte_identical": true,
+      "syntax": "not_applicable"
+    },
+    {
+      "file": "payloads/15d7152c5795/071-NIR正式管线与资产分层.md",
+      "byte_identical": true,
+      "syntax": "not_applicable"
+    },
+    {
+      "file": "payloads/ff1f02cd39fc/063-RITnet瞳孔与虹膜分割方法.md",
+      "byte_identical": true,
+      "syntax": "not_applicable"
+    },
+    {
+      "file": "payloads/140274b5d3b2/062-Tracking策略.md",
+      "byte_identical": true,
+      "syntax": "not_applicable"
+    },
+    {
+      "file": "payloads/81666bf09d10/061-YOLO眼框检测方法.md",
+      "byte_identical": true,
+      "syntax": "not_applicable"
+    },
+    {
+      "file": "payloads/689d0c33193a/README.md",
+      "byte_identical": true,
+      "syntax": "not_applicable"
+    },
+    {
+      "file": "payloads/4f30029e8a8f/00-目录与映射.md",
+      "byte_identical": true,
+      "syntax": "not_applicable"
+    },
+    {
+      "file": "payloads/81d248d1b26b/00-目录与映射.md",
+      "byte_identical": true,
+      "syntax": "not_applicable"
+    },
+    {
+      "file": "payloads/8404fbee04dc/00-目录与映射.md",
+      "byte_identical": true,
+      "syntax": "not_applicable"
+    },
+    {
+      "file": "payloads/9ede2b0de1e4/README.md",
+      "byte_identical": true,
+      "syntax": "not_applicable"
+    },
+    {
+      "file": "payloads/53e790183806/README.md",
+      "byte_identical": true,
+      "syntax": "not_applicable"
+    },
+    {
+      "file": "payloads/a35bbb77ddb4/00-目录与映射.md",
+      "byte_identical": true,
+      "syntax": "not_applicable"
+    },
+    {
+      "file": "payloads/502607b2019b/README.md",
+      "byte_identical": true,
+      "syntax": "not_applicable"
+    },
+    {
+      "file": "payloads/af87498b7100/README.md",
+      "byte_identical": true,
+      "syntax": "not_applicable"
+    },
+    {
+      "file": "payloads/cec2f2adac65/README.md",
+      "byte_identical": true,
+      "syntax": "not_applicable"
+    },
+    {
+      "file": "payloads/c26b03c8c9fb/README.md",
+      "byte_identical": true,
+      "syntax": "not_applicable"
+    },
+    {
+      "file": "payloads/257889e17251/pyproject.toml",
+      "byte_identical": true,
+      "syntax": "not_applicable"
+    },
+    {
+      "file": "payloads/104231ffcde0/README.md",
+      "byte_identical": true,
+      "syntax": "not_applicable"
+    },
+    {
+      "file": "payloads/92296891548e/00-目录与映射.md",
+      "byte_identical": true,
+      "syntax": "not_applicable"
+    },
+    {
+      "file": "payloads/5ba4ebf0da66/00-目录与映射.md",
+      "byte_identical": true,
+      "syntax": "not_applicable"
+    },
+    {
+      "file": "payloads/786dbc684789/formal.yaml",
+      "byte_identical": true,
+      "syntax": "not_applicable"
+    },
+    {
+      "file": "payloads/ae86124d768e/000-项目总览与架构.md",
+      "byte_identical": true,
+      "syntax": "not_applicable"
+    },
+    {
+      "file": "payloads/0cc2e9a26828/00-目录与映射.md",
+      "byte_identical": true,
+      "syntax": "not_applicable"
+    },
+    {
+      "file": "payloads/f7ca51462099/README.md",
+      "byte_identical": true,
+      "syntax": "not_applicable"
+    },
+    {
+      "file": "payloads/591948e03c3c/00-目录与映射.md",
+      "byte_identical": true,
+      "syntax": "not_applicable"
+    },
+    {
+      "file": "payloads/5548c37d863e/00-目录与映射.md",
+      "byte_identical": true,
+      "syntax": "not_applicable"
+    },
+    {
+      "file": "payloads/56dea88cd6ae/00-目录与映射.md",
+      "byte_identical": true,
+      "syntax": "not_applicable"
+    },
+    {
+      "file": "payloads/fb87d70b4bc8/00-目录与映射.md",
+      "byte_identical": true,
+      "syntax": "not_applicable"
+    },
+    {
+      "file": "payloads/396e1fb0d09e/00-目录与映射.md",
+      "byte_identical": true,
+      "syntax": "not_applicable"
+    },
+    {
+      "file": "payloads/fac3ba019753/013-bmo-reporting-figures-plan.md",
+      "byte_identical": true,
+      "syntax": "not_applicable"
+    },
+    {
+      "file": "payloads/7852f4af779e/audit_bmo_figures.py",
+      "byte_identical": true,
+      "syntax": "python_ast_pass"
+    },
+    {
+      "file": "payloads/56d59613f73b/_blas.txt",
+      "byte_identical": true,
+      "syntax": "not_applicable"
+    },
+    {
+      "file": "payloads/f51322f437ac/_g1_buffer_effect_stdout.txt",
+      "byte_identical": true,
+      "syntax": "not_applicable"
+    },
+    {
+      "file": "payloads/5031d711f84a/_lapack_stdout.txt",
+      "byte_identical": true,
+      "syntax": "not_applicable"
+    },
+    {
+      "file": "payloads/ca8d83514fe4/_nir_lapack.txt",
+      "byte_identical": true,
+      "syntax": "not_applicable"
+    },
+    {
+      "file": "payloads/b7bfd5636f93/_tmp_behavior_g1_probe_check.py",
+      "byte_identical": true,
+      "syntax": "python_ast_pass"
+    },
+    {
+      "file": "payloads/bf2d3b1a80a2/_tmp_g1_aggregate.py",
+      "byte_identical": true,
+      "syntax": "python_ast_pass"
+    },
+    {
+      "file": "payloads/b4e47691b601/_tmp_g1_aggregate2.py",
+      "byte_identical": true,
+      "syntax": "python_ast_pass"
+    },
+    {
+      "file": "payloads/71ffb2cf6816/_tmp_g1_aggregate3.py",
+      "byte_identical": true,
+      "syntax": "python_ast_pass"
+    },
+    {
+      "file": "payloads/0670bd1bb9a0/_tmp_g1_aggregate4.py",
+      "byte_identical": true,
+      "syntax": "python_ast_pass"
+    },
+    {
+      "file": "payloads/ce1882e9a697/_tmp_g1_aggregate5.py",
+      "byte_identical": true,
+      "syntax": "python_ast_pass"
+    },
+    {
+      "file": "payloads/d477cf1de5f5/_tmp_g1_aggregate7.py",
+      "byte_identical": true,
+      "syntax": "python_ast_pass"
+    },
+    {
+      "file": "payloads/4a7573803eb2/_tmp_g1_buffer_effect.py",
+      "byte_identical": true,
+      "syntax": "python_ast_pass"
+    },
+    {
+      "file": "payloads/a66f734a070c/_tmp_g1_verify.py",
+      "byte_identical": true,
+      "syntax": "python_ast_pass"
+    },
+    {
+      "file": "payloads/5fcd9d7d6a8b/pr64_body_backup_20260913.md",
+      "byte_identical": true,
+      "syntax": "not_applicable"
+    },
+    {
+      "file": "payloads/b89b97758690/pr64_body_corrected_20260913.md",
+      "byte_identical": true,
+      "syntax": "not_applicable"
+    }
+  ],
+  "not_claimed": [
+    "scientific revalidation",
+    "full runtime execution of historical sources",
+    "adoption into current pipeline"
+  ]
+}

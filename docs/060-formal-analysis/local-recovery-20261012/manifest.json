@@ -1,0 +1,3170 @@
+{
+  "date": "2026-10-12",
+  "repository": "kyandi233-dev/Attention-Analysis",
+  "base_branch": "codex/formal-analysis-v2-portable",
+  "base_commit": "afeaf912a97d4449a31d29edd7531ac759183083",
+  "branch": "codex/local-process-recovery-20261012",
+  "purpose": "Recover unpublished portable historical sources and method/run evidence for project backup. No scientific rerun or active pipeline change.",
+  "exclusions": [
+    "raw participant data",
+    "row-level outputs",
+    "personal/financial material",
+    "credentials/runtime",
+    "model binaries",
+    "superseded navigation",
+    "test caches"
+  ],
+  "entries": [
+    {
+      "snapshot": "payloads/9a0e27e04786/run_behavior_probe_window_sensitivity_20260831.py",
+      "original_path": "scripts/maintenance/run_behavior_probe_window_sensitivity_20260831.py",
+      "git_blob": "9a0e27e04786a708329f6ea7239760b026fba358",
+      "sha256": "6a125bc0f2cb8dcf020bb695bf091fa11e15b796b90203356ec8405862e5a7c1",
+      "bytes": 5309,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "working_tree",
+          "original_path": "scripts/maintenance/run_behavior_probe_window_sensitivity_20260831.py",
+          "commit": null
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/91858eede7b3/science_v3.py",
+      "original_path": "src/attention_pipeline/behavior_formal/science_v3.py",
+      "git_blob": "91858eede7b32a86b23d1207013b039bfb8531da",
+      "sha256": "b6efad5872f7d9aa713a15f70fa1078755f68d1f5ed992bef3411b0bf544b247",
+      "bytes": 29959,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "working_tree",
+          "original_path": "src/attention_pipeline/behavior_formal/science_v3.py",
+          "commit": null
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/5ad249f62ee9/test_behavior_science_v3_contract.py",
+      "original_path": "tests/test_behavior_science_v3_contract.py",
+      "git_blob": "5ad249f62ee97053143585e56efc11cdd23e4749",
+      "sha256": "b19421976e379623a5ba10507e727b506fd6e0a689c608489032bbce65957d25",
+      "bytes": 5151,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "working_tree",
+          "original_path": "tests/test_behavior_science_v3_contract.py",
+          "commit": null
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/6ddddc1423f6/extract_nir_examples_20260831.py",
+      "original_path": "scripts/maintenance/extract_nir_examples_20260831.py",
+      "git_blob": "6ddddc1423f6dc78f31355b3d2898e2ff28b632c",
+      "sha256": "10cafe7ef07c0e72eac8441defa1442f67409446a82828a2812125b2db213b76",
+      "bytes": 5333,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "working_tree",
+          "original_path": "scripts/maintenance/extract_nir_examples_20260831.py",
+          "commit": null
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/548e3b628452/extract_rgb_examples_20260831.py",
+      "original_path": "scripts/maintenance/extract_rgb_examples_20260831.py",
+      "git_blob": "548e3b62845229382959eabafc2eb5ed537cb076",
+      "sha256": "6f1b531259a5631eea34010a1d6e68faab3a26b142bbece0bba3be04307a48cd",
+      "bytes": 6382,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "working_tree",
+          "original_path": "scripts/maintenance/extract_rgb_examples_20260831.py",
+          "commit": null
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/7ec408c707a2/nir_headmotion_correction_check_20260831.py",
+      "original_path": "scripts/maintenance/nir_headmotion_correction_check_20260831.py",
+      "git_blob": "7ec408c707a273a977d2c466bc0244951590992f",
+      "sha256": "6edaf702c36aa4324290ced0f8f399da84060413a159783b1785a64dbfe9e170",
+      "bytes": 8007,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "working_tree",
+          "original_path": "scripts/maintenance/nir_headmotion_correction_check_20260831.py",
+          "commit": null
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/f8d2c7127a9e/regenerate_multimodal_figures_20260831.py",
+      "original_path": "scripts/maintenance/regenerate_multimodal_figures_20260831.py",
+      "git_blob": "f8d2c7127a9ed4bb810f4193bb045f2260631d2c",
+      "sha256": "eeb77bffa2ef405562ed5be67a2a51b91b8cebf366d464b1ed0476e238924f9d",
+      "bytes": 5904,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "working_tree",
+          "original_path": "scripts/maintenance/regenerate_multimodal_figures_20260831.py",
+          "commit": null
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/99f6218fb4d0/regenerate_nir_figures_pupil_only_20260831.py",
+      "original_path": "scripts/maintenance/regenerate_nir_figures_pupil_only_20260831.py",
+      "git_blob": "99f6218fb4d0b458de1354e0433ddb81ba33ff7b",
+      "sha256": "6cbef2e5f3e05a7e0c10e990651368254ca2b44ea0eb04ad1e77098b3e8fce13",
+      "bytes": 25298,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "working_tree",
+          "original_path": "scripts/maintenance/regenerate_nir_figures_pupil_only_20260831.py",
+          "commit": null
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/e90a5fcb92f9/regenerate_rgb_blink_figures_20260831.py",
+      "original_path": "scripts/maintenance/regenerate_rgb_blink_figures_20260831.py",
+      "git_blob": "e90a5fcb92f9c3d5b88c2e73257b2a65c37a2c68",
+      "sha256": "2967ff5452cdfd387c61a13e8f540dc02c9560fee3f397dde1e8848e2d9917aa",
+      "bytes": 5516,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "working_tree",
+          "original_path": "scripts/maintenance/regenerate_rgb_blink_figures_20260831.py",
+          "commit": null
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/04e43732d11b/maintain_rgb_formal_cohort.ps1",
+      "original_path": "scripts/maintain_rgb_formal_cohort.ps1",
+      "git_blob": "04e43732d11bda81714be91600a3fb11999d86d7",
+      "sha256": "3bcaaabbf4ca926a8e71b804401fefa57ca90f5002f569235831d599cf8829cd",
+      "bytes": 8339,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "working_tree",
+          "original_path": "scripts/maintain_rgb_formal_cohort.ps1",
+          "commit": null
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/166eeaa09a3f/show_rgb_supervisor_status.ps1",
+      "original_path": "scripts/show_rgb_supervisor_status.ps1",
+      "git_blob": "166eeaa09a3f2f611357039590fe39b9d686c26b",
+      "sha256": "215c17ffbc33f7c51a13e323d3254d90822386d1ae9b97642c9537b44bd34990",
+      "bytes": 4288,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "working_tree",
+          "original_path": "scripts/show_rgb_supervisor_status.ps1",
+          "commit": null
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/241181bc94d3/onnx_cuda_runtime.py",
+      "original_path": "runtime/nir-formal/onnx_cuda_runtime.py",
+      "git_blob": "241181bc94d364fa834b20fde22de6bc210d4b99",
+      "sha256": "75991514a9a45ddde9aafd1dd6ad92bf918a6ca34ed8c6735165bd0d12f34194",
+      "bytes": 6403,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "working_tree",
+          "original_path": "runtime/nir-formal/onnx_cuda_runtime.py",
+          "commit": null
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/8850ba54746d/ritnet_fullclass_qc.py",
+      "original_path": "runtime/nir-formal/ritnet_fullclass_qc.py",
+      "git_blob": "8850ba54746d61551190fbf58ce268b15d3159bf",
+      "sha256": "0dd94302ef12cf0c4829af2617488fabe04610b3d6dbf55ac8a11dc797437628",
+      "bytes": 7833,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "working_tree",
+          "original_path": "runtime/nir-formal/ritnet_fullclass_qc.py",
+          "commit": null
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/6c14bccf3d40/config.sampled.yaml",
+      "original_path": "runtime/NIR-formal/config.sampled.yaml",
+      "git_blob": "6c14bccf3d402302723894d4bcea355cf6942650",
+      "sha256": "85b073db5135cc484216a8b10db212c23214267ee7620da91f13b9eb2c368c03",
+      "bytes": 789,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "working_tree",
+          "original_path": "runtime/NIR-formal/config.sampled.yaml",
+          "commit": null
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/807b84d5396d/run_pipeline.py",
+      "original_path": "runtime/NIR-formal/run_pipeline.py",
+      "git_blob": "807b84d5396d104e1ca87479d8d2eb50c6d08707",
+      "sha256": "dffc68273aff69adda2ea6cb1327faecbee3eabefd86cd09113d26f1713678c4",
+      "bytes": 21547,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "working_tree",
+          "original_path": "runtime/NIR-formal/run_pipeline.py",
+          "commit": null
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/69ef16ac6039/analysis_sets.py",
+      "original_path": "src/attention_pipeline/multimodal_formal/analysis_sets.py",
+      "git_blob": "69ef16ac6039f8473511f3ab4365c1a063fcfd38",
+      "sha256": "448bceed4599dce525b6533990cfb2a7a06cde495562489f9cbba2762af8aac2",
+      "bytes": 10013,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "committed_history",
+          "original_path": "src/attention_pipeline/multimodal_formal/analysis_sets.py",
+          "commit": "48524b4ddad5706c5fdd024013ddb2ddd038192f"
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/513ad405e8ef/quality_admission.py",
+      "original_path": "src/attention_pipeline/multimodal_formal/quality_admission.py",
+      "git_blob": "513ad405e8efa41718561cdefddb10074fa5883d",
+      "sha256": "a67a734c19597935b0926fdc8dfadfd546e5d79705ad9436db0185a26adde14c",
+      "bytes": 20005,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "committed_history",
+          "original_path": "src/attention_pipeline/multimodal_formal/quality_admission.py",
+          "commit": "7712a894aeda9a99c4f4e095dbf2770b28e879d8"
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/d8df03b399a2/prediction_archive.py",
+      "original_path": "src/attention_pipeline/multimodal_formal/prediction_archive.py",
+      "git_blob": "d8df03b399a227b1c9d109c6c71013c708fd5343",
+      "sha256": "126505ba8b737a94ac56b6edc61db267d8afb1b081591f9d427f700dd87a99ac",
+      "bytes": 12222,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "committed_history",
+          "original_path": "src/attention_pipeline/multimodal_formal/prediction_archive.py",
+          "commit": "912580939320a0fef466f40021994cfa20360730"
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/656473896e7c/test_task_b_analysis_set_audit.py",
+      "original_path": "tests/test_task_b_analysis_set_audit.py",
+      "git_blob": "656473896e7c5d7e0cd189c709e1b2cfa5f7d16e",
+      "sha256": "59739c25ccda84648626212f4f6ded411939d7f5d581f4b0ac45b9040bb61fd1",
+      "bytes": 11430,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "committed_history",
+          "original_path": "tests/test_task_b_analysis_set_audit.py",
+          "commit": "8a57245fcaab51a347d8823da29724e9cbec4e80"
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/da78db19cf77/prediction_archive.py",
+      "original_path": "src/attention_pipeline/multimodal_formal/prediction_archive.py",
+      "git_blob": "da78db19cf77c926a559db5dfbebbaad751e3d34",
+      "sha256": "44d258576a0530353a90726853c086e6f5bc6733ae83b7c641637ce14b2d3558",
+      "bytes": 8315,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "committed_history",
+          "original_path": "src/attention_pipeline/multimodal_formal/prediction_archive.py",
+          "commit": "db054f4c631210c4317cbcbae51f08c004c83876"
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/fc5cbf311353/quality_admission.py",
+      "original_path": "src/attention_pipeline/multimodal_formal/quality_admission.py",
+      "git_blob": "fc5cbf311353e6d9c415ab233de7580a59d7bab8",
+      "sha256": "9269a4126e753f9b05196bfecaefcbb0ed019e7b22cf22e017685a026f1f3f2d",
+      "bytes": 20070,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "committed_history",
+          "original_path": "src/attention_pipeline/multimodal_formal/quality_admission.py",
+          "commit": "be8cd9f5e77a536adbdbd4c25b901007d18d326c"
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/3ee1957027c0/task-b-analysis-set-audit.yml",
+      "original_path": ".github/workflows/task-b-analysis-set-audit.yml",
+      "git_blob": "3ee1957027c002e406598971fc8e4cbd64c8cd8e",
+      "sha256": "4dbda4f42d5777bf577b736283963bdc52b71b06af6c5bec30a1dd6a499c7960",
+      "bytes": 909,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "committed_history",
+          "original_path": ".github/workflows/task-b-analysis-set-audit.yml",
+          "commit": "64e0a9209cff3b585fd791dfb8f9de2a5988b1f6"
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/e3fa7ee81768/test_task_b_analysis_set_audit.py",
+      "original_path": "tests/test_task_b_analysis_set_audit.py",
+      "git_blob": "e3fa7ee81768781c80ef37ecf8b31bf11b397f84",
+      "sha256": "9fb3b662cc3fb57d00e85cc523f9d86fcb68028b97ae5d05840df693535abc13",
+      "bytes": 8019,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "committed_history",
+          "original_path": "tests/test_task_b_analysis_set_audit.py",
+          "commit": "dc627466da9c56026c57f7731f579303f023fe71"
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/52862f7f8bd1/prediction_archive.py",
+      "original_path": "src/attention_pipeline/multimodal_formal/prediction_archive.py",
+      "git_blob": "52862f7f8bd126151765d85cb922f2bc2b21014a",
+      "sha256": "dd10a8339c7dbf0cbb148a7d998a3f652d7fcb965d9dd36038e7eae0eff6ea8f",
+      "bytes": 5585,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "committed_history",
+          "original_path": "src/attention_pipeline/multimodal_formal/prediction_archive.py",
+          "commit": "262e52576483a50764e0bd7f9d122e737d28f826"
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/64e0a30d4435/analysis_sets.py",
+      "original_path": "src/attention_pipeline/multimodal_formal/analysis_sets.py",
+      "git_blob": "64e0a30d4435d07dccc4de5291dc993451b900d6",
+      "sha256": "447937cb32522766927496c133d718d1174c5c9988438bc8517d3898fe186743",
+      "bytes": 6947,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "committed_history",
+          "original_path": "src/attention_pipeline/multimodal_formal/analysis_sets.py",
+          "commit": "c8f421a6a36531b11c7334bd0475bf7e1c421bb9"
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/6b695dc6aa98/quality_admission.py",
+      "original_path": "src/attention_pipeline/multimodal_formal/quality_admission.py",
+      "git_blob": "6b695dc6aa9852cdf635dd3b3a0dc272d7b7acea",
+      "sha256": "12d0bede1bd9f2454e1d2aa499ecdbeae3dc6d3dd51c39c0893a85ddde09564b",
+      "bytes": 16144,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "committed_history",
+          "original_path": "src/attention_pipeline/multimodal_formal/quality_admission.py",
+          "commit": "28b51d8d79328aa2cc15c85eefd16c0f2d6e1888"
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/d2032ea35846/test_pupil_blink_measurement.py",
+      "original_path": "tests/test_pupil_blink_measurement.py",
+      "git_blob": "d2032ea3584651b1bbfb86dffca6e0148902c9f9",
+      "sha256": "f6daefab6f7dd4a557701b1c52a757f16e5c7c527028aeb3ca9772cf163f5644",
+      "bytes": 14215,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "committed_history",
+          "original_path": "tests/test_pupil_blink_measurement.py",
+          "commit": "c2d36ad3c17eda9087666b19f93a7f9c8aa1f3f0"
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/edeb8c588a13/pupil_blink_measurement_runner.py",
+      "original_path": "src/attention_pipeline/nir_formal_analysis/pupil_blink_measurement_runner.py",
+      "git_blob": "edeb8c588a13d1e875a008fa53ee3ec5749160a0",
+      "sha256": "ef5bbcceedf7bed26b8c0209e519d80fe13667d48170729fe5fd43f4c374f908",
+      "bytes": 14907,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "committed_history",
+          "original_path": "src/attention_pipeline/nir_formal_analysis/pupil_blink_measurement_runner.py",
+          "commit": "4479a6b23f5aab82a94375af87ccadbe36d52609"
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/5768a357c53a/pupil-blink-audit.yml",
+      "original_path": ".github/workflows/pupil-blink-audit.yml",
+      "git_blob": "5768a357c53ad656d7407126d9a4802b95af424e",
+      "sha256": "ee81d7161965d2ab36c188edfe2182c937aab095b44b9ae17030363afc29d155",
+      "bytes": 1997,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "committed_history",
+          "original_path": ".github/workflows/pupil-blink-audit.yml",
+          "commit": "dba55b06e609937db09943a42c564a83220c0b5d"
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/fb54bb3803db/test_pupil_blink_sync.py",
+      "original_path": "tests/test_pupil_blink_sync.py",
+      "git_blob": "fb54bb3803db7706454467862b4832b9db5cdcf0",
+      "sha256": "a03dd56942b004969d6c09a73cbf958a0517ffc9bd2f18cddb0d11a5e1a8f428",
+      "bytes": 3520,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "committed_history",
+          "original_path": "tests/test_pupil_blink_sync.py",
+          "commit": "170b3d236c800170d1352b218c88e3b18ff7f33d"
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/3e5e7e116a1b/pupil-blink-audit.yml",
+      "original_path": ".github/workflows/pupil-blink-audit.yml",
+      "git_blob": "3e5e7e116a1b50e10401cfdaed57700b02ba7b5c",
+      "sha256": "a83c8be2fe38c2c09d36a0f41f62ef85aebf536fe4490f4c98233a354803e391",
+      "bytes": 2369,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "committed_history",
+          "original_path": ".github/workflows/pupil-blink-audit.yml",
+          "commit": "3c97299d0f63dc96d6fa78615396eb300c45353f"
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/60830cc99bb3/run_ocular_postfreeze_analysis.py",
+      "original_path": "scripts/run_ocular_postfreeze_analysis.py",
+      "git_blob": "60830cc99bb30e157b7e279cb46555a99bc8b6b2",
+      "sha256": "eef96c01c1a011345dbaad2a9f5d52daffc3c921c234360a9175df6e18a1c25d",
+      "bytes": 1759,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "committed_history",
+          "original_path": "scripts/run_ocular_postfreeze_analysis.py",
+          "commit": "5b98bdbb512bc7ce2cd24ac97de0ad5e01ca04df"
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/c03bcc6dbad3/ocular_postfreeze_figures.py",
+      "original_path": "src/attention_pipeline/nir_formal_analysis/ocular_postfreeze_figures.py",
+      "git_blob": "c03bcc6dbad32bceefa628ff368d8d8e9ce1a67a",
+      "sha256": "b7c01eab6f0e239324c986c3203998b1619210b59503d2f258bdd58f3fdeed54",
+      "bytes": 10924,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "committed_history",
+          "original_path": "src/attention_pipeline/nir_formal_analysis/ocular_postfreeze_figures.py",
+          "commit": "5b98bdbb512bc7ce2cd24ac97de0ad5e01ca04df"
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/98da268f1a51/test_ocular_postfreeze_analysis.py",
+      "original_path": "tests/test_ocular_postfreeze_analysis.py",
+      "git_blob": "98da268f1a514de1f50f477f0a69128ae04a468f",
+      "sha256": "59d83eb2a9998903906e461353d8c7f36744a3a6b3cc2c2532a6641230548c4d",
+      "bytes": 4206,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "committed_history",
+          "original_path": "tests/test_ocular_postfreeze_analysis.py",
+          "commit": "5b98bdbb512bc7ce2cd24ac97de0ad5e01ca04df"
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/5678114e0c42/multimodal_fusion.yaml",
+      "original_path": "configs/multimodal_fusion.yaml",
+      "git_blob": "5678114e0c425fdb1bd53c38bf33da81a71637f0",
+      "sha256": "1836634f5f47cf5ce248ae1198860043b4722760810d3ae8d7ee48b82d7c7109",
+      "bytes": 8002,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "committed_history",
+          "original_path": "configs/multimodal_fusion.yaml",
+          "commit": "4d8c40e3e8187652837b0ea664eac70182591c91"
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/0da91a2b327e/015-质量准入入口与验收_20260910.md",
+      "original_path": "docs/060-formal-analysis/015-质量准入入口与验收_20260910.md",
+      "git_blob": "0da91a2b327e540e7daa247f009e54bf0eeeee17",
+      "sha256": "65233c8dc00101ec80a7583d8b7bb4dbb4fea9699387fdf1d96e87bd4ddd1267",
+      "bytes": 6313,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "committed_history",
+          "original_path": "docs/060-formal-analysis/015-质量准入入口与验收_20260910.md",
+          "commit": "4d8c40e3e8187652837b0ea664eac70182591c91"
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/197c36b44cb9/README.md",
+      "original_path": "docs/060-formal-analysis/README.md",
+      "git_blob": "197c36b44cb925a1c1a7cce6c43dea7ca50917e8",
+      "sha256": "a464dded81738c6ecc4f68c35aadd374ffe00d9ce4662aeea69665a6d12e7d23",
+      "bytes": 5203,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "committed_history",
+          "original_path": "docs/060-formal-analysis/README.md",
+          "commit": "4d8c40e3e8187652837b0ea664eac70182591c91"
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/e45233f94705/multimodal_fusion_analysis.py",
+      "original_path": "scripts/multimodal_fusion_analysis.py",
+      "git_blob": "e45233f947056c6f2c0b17bce477f7a01f07d1e3",
+      "sha256": "5f9303c297199d5481de2ac4554f0f44b067cbacc403e8527c67581463054c80",
+      "bytes": 3385,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "committed_history",
+          "original_path": "scripts/multimodal_fusion_analysis.py",
+          "commit": "4d8c40e3e8187652837b0ea664eac70182591c91"
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/4a53a008f178/alignment.py",
+      "original_path": "src/attention_pipeline/multimodal_formal/alignment.py",
+      "git_blob": "4a53a008f1782b7534af22e560a73916692e9331",
+      "sha256": "08699658ab25c3bb24a43faf24a6ec96319c93e50fc7f08e29cdd5d23c0d23e0",
+      "bytes": 19317,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "committed_history",
+          "original_path": "src/attention_pipeline/multimodal_formal/alignment.py",
+          "commit": "4d8c40e3e8187652837b0ea664eac70182591c91"
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/d77923a6917f/quality_admission.py",
+      "original_path": "src/attention_pipeline/multimodal_formal/quality_admission.py",
+      "git_blob": "d77923a6917ff1762856a8faa143f3a2e0825191",
+      "sha256": "d815477f07195b1e921c7020a4968ecafa1b93bfc0538f59132b0eeb220c88f3",
+      "bytes": 17736,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "committed_history",
+          "original_path": "src/attention_pipeline/multimodal_formal/quality_admission.py",
+          "commit": "4d8c40e3e8187652837b0ea664eac70182591c91"
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/9783807ecef3/runner.py",
+      "original_path": "src/attention_pipeline/multimodal_formal/runner.py",
+      "git_blob": "9783807ecef38e0a7bafe1ef59a953c36f37cd22",
+      "sha256": "64504f62e562b1a812b03386af10258e45967dc123427de02764855834fe6bef",
+      "bytes": 23146,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "committed_history",
+          "original_path": "src/attention_pipeline/multimodal_formal/runner.py",
+          "commit": "4d8c40e3e8187652837b0ea664eac70182591c91"
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/0f8143978d45/test_multimodal_fusion_analysis.py",
+      "original_path": "tests/test_multimodal_fusion_analysis.py",
+      "git_blob": "0f8143978d4587fb754c3dca9335f7790afc383b",
+      "sha256": "bcecda0f665b46cc0ccd34457db270bdfeaec4ef526a81b91ea4460b6939918a",
+      "bytes": 22832,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "committed_history",
+          "original_path": "tests/test_multimodal_fusion_analysis.py",
+          "commit": "4d8c40e3e8187652837b0ea664eac70182591c91"
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/16e293e0dd23/test_quality_admission.py",
+      "original_path": "tests/test_quality_admission.py",
+      "git_blob": "16e293e0dd23caa79255ea287379dd24d88e6dd6",
+      "sha256": "f79b4baaa30af85eadc69133a69ce3b3b0e813fbaa495f125df52859ea81d608",
+      "bytes": 7178,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "committed_history",
+          "original_path": "tests/test_quality_admission.py",
+          "commit": "4d8c40e3e8187652837b0ea664eac70182591c91"
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/1ea371b6c578/mmwave-cardiopulmonary-ingest-audit-v1.md",
+      "original_path": "docs/supervised_learning/mmwave-cardiopulmonary-ingest-audit-v1.md",
+      "git_blob": "1ea371b6c578ce3288cf48bb278dd15bf6f812cc",
+      "sha256": "cbf1ece9ee484a1e88682a7ce172f8cd51fc370268c812d8c7f9c8b32d1dfd1f",
+      "bytes": 5945,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "committed_history",
+          "original_path": "docs/supervised_learning/mmwave-cardiopulmonary-ingest-audit-v1.md",
+          "commit": "982b750241fe72c1a1d3ba2132e77c4d3d53beff"
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/fd13dc396cc4/mmwave-cardiopulmonary-time-lineage-evidence-v1.md",
+      "original_path": "docs/supervised_learning/mmwave-cardiopulmonary-time-lineage-evidence-v1.md",
+      "git_blob": "fd13dc396cc46e67bc84e631714d7eb3c2a8fb25",
+      "sha256": "7543cd55076e1cfb9ac58155b1f0dd1be168ea41dfb1c7968e4a7f5d63826ee0",
+      "bytes": 4458,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "committed_history",
+          "original_path": "docs/supervised_learning/mmwave-cardiopulmonary-time-lineage-evidence-v1.md",
+          "commit": "982b750241fe72c1a1d3ba2132e77c4d3d53beff"
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/a939ff56fbf9/mmwave_cardiopulmonary_ingest_audit.py",
+      "original_path": "scripts/mmwave_cardiopulmonary_ingest_audit.py",
+      "git_blob": "a939ff56fbf90fc1f12487db7dfa6f7d185dc3f4",
+      "sha256": "735349e3c5a060e5f25980fe6fb13925beee295cc37076acc6b221c1c0fe51a1",
+      "bytes": 4565,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "committed_history",
+          "original_path": "scripts/mmwave_cardiopulmonary_ingest_audit.py",
+          "commit": "982b750241fe72c1a1d3ba2132e77c4d3d53beff"
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/c670a0e09ccb/mmwave_cardiopulmonary_ingest.py",
+      "original_path": "src/attention_pipeline/multimodal_formal/mmwave_cardiopulmonary_ingest.py",
+      "git_blob": "c670a0e09ccb21560e3f839c152262acb45db894",
+      "sha256": "15cbd7b1515ab0c78e00da77b9478d63f03e7ea6b1d8e3d4c69b309109dbe580",
+      "bytes": 32872,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "committed_history",
+          "original_path": "src/attention_pipeline/multimodal_formal/mmwave_cardiopulmonary_ingest.py",
+          "commit": "982b750241fe72c1a1d3ba2132e77c4d3d53beff"
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/bd8c0ed10ca3/test_mmwave_cardiopulmonary_ingest.py",
+      "original_path": "tests/test_mmwave_cardiopulmonary_ingest.py",
+      "git_blob": "bd8c0ed10ca30c3a52a903934f817c692f84e109",
+      "sha256": "86880fab04f0f25d128333c9cabb7cc48db82f3e616d9708b46586bc536d88e3",
+      "bytes": 12329,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "committed_history",
+          "original_path": "tests/test_mmwave_cardiopulmonary_ingest.py",
+          "commit": "982b750241fe72c1a1d3ba2132e77c4d3d53beff"
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/c6cf6b78287e/mmwave-cardiopulmonary-ingest-audit-v1.md",
+      "original_path": "docs/supervised_learning/mmwave-cardiopulmonary-ingest-audit-v1.md",
+      "git_blob": "c6cf6b78287ed5df0fd1b985c0f20fe216c63f73",
+      "sha256": "6cc1f677e96c3499ce04739294f8d4dda51d98eb4842eeaae79e5b93c57988f6",
+      "bytes": 7576,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "committed_history",
+          "original_path": "docs/supervised_learning/mmwave-cardiopulmonary-ingest-audit-v1.md",
+          "commit": "53f642ab7c76e6692a11a68636bf36f1158418d5"
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/2a578a1ea5d6/mmwave-cardiopulmonary-time-lineage-evidence-v1.md",
+      "original_path": "docs/supervised_learning/mmwave-cardiopulmonary-time-lineage-evidence-v1.md",
+      "git_blob": "2a578a1ea5d65441bcd79d88a1e8819cc4145c49",
+      "sha256": "3f226892d654136c52d877a3118b41695381c941c1b912559e21f81ef68b3d11",
+      "bytes": 4554,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "committed_history",
+          "original_path": "docs/supervised_learning/mmwave-cardiopulmonary-time-lineage-evidence-v1.md",
+          "commit": "53f642ab7c76e6692a11a68636bf36f1158418d5"
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/615493f1d07c/mmwave_cardiopulmonary_ingest_audit.py",
+      "original_path": "scripts/mmwave_cardiopulmonary_ingest_audit.py",
+      "git_blob": "615493f1d07cd4c42263a344fafb7acf30c5f619",
+      "sha256": "10dbb10307b03717443a9a7047be42b738abe687dc3d7774147aac98bbb708b6",
+      "bytes": 4187,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "committed_history",
+          "original_path": "scripts/mmwave_cardiopulmonary_ingest_audit.py",
+          "commit": "53f642ab7c76e6692a11a68636bf36f1158418d5"
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/c50800d2deef/mmwave_cardiopulmonary_ingest.py",
+      "original_path": "src/attention_pipeline/multimodal_formal/mmwave_cardiopulmonary_ingest.py",
+      "git_blob": "c50800d2deef0376079626ca6baeda55d9b4a67c",
+      "sha256": "dca5ea520e745988610416308fdad5c54c79c60b9b0d750bfddcc50961b02575",
+      "bytes": 33790,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "committed_history",
+          "original_path": "src/attention_pipeline/multimodal_formal/mmwave_cardiopulmonary_ingest.py",
+          "commit": "53f642ab7c76e6692a11a68636bf36f1158418d5"
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/73b66c10b896/test_mmwave_cardiopulmonary_ingest.py",
+      "original_path": "tests/test_mmwave_cardiopulmonary_ingest.py",
+      "git_blob": "73b66c10b896df8dfe2a4cd077601256e5cd8100",
+      "sha256": "e9f9c36440dbf998a0a591ded0a4337356f9bf9b3103d1599167080891e6695c",
+      "bytes": 15832,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "committed_history",
+          "original_path": "tests/test_mmwave_cardiopulmonary_ingest.py",
+          "commit": "53f642ab7c76e6692a11a68636bf36f1158418d5"
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/7c1ff3e89ef4/NIR_STATUS_TODAY.md",
+      "original_path": "docs/020-nir/NIR_STATUS_TODAY.md",
+      "git_blob": "7c1ff3e89ef46d430b1a0d999622c8b51516b47c",
+      "sha256": "9043b8d303747ad7b0b3a979e4995383f73192433f2d2833d36634717058f6db",
+      "bytes": 5356,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "committed_history",
+          "original_path": "docs/020-nir/NIR_STATUS_TODAY.md",
+          "commit": "df6a06a74c1505ff3e22f651aed5dbc4f874483c"
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/710221d969f0/REPOSITORY_SYNC.md",
+      "original_path": "REPOSITORY_SYNC.md",
+      "git_blob": "710221d969f06f7e7e5c8c0705878258729f0693",
+      "sha256": "4c9eecee5fd178e7896a63c3c5975e8b57ee1ce8f10c249d7106264a786d341c",
+      "bytes": 1500,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "committed_history",
+          "original_path": "REPOSITORY_SYNC.md",
+          "commit": "39bd896c7b7bef12acb7ece678237437ad964553"
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/5bccc43b7583/NVIDIA-RITnet全分类补跑使用说明.md",
+      "original_path": "NVIDIA-RITnet全分类补跑使用说明.md",
+      "git_blob": "5bccc43b7583f51fa9adf8a1544db9ff30669f16",
+      "sha256": "a61569b3e97f306847e7e884b8bc83ce0f5f5a000c09b6ae60bc5d353e3dc9a0",
+      "bytes": 11383,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "committed_history",
+          "original_path": "NVIDIA-RITnet全分类补跑使用说明.md",
+          "commit": "35f16d7e80e721a37f19537157a3e2d0a43162c2"
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/964623e0ae4f/README.md",
+      "original_path": "README.md",
+      "git_blob": "964623e0ae4fbb16e34ebc1d105bb30661acf4ba",
+      "sha256": "6e8a497f6afc22ecf634b299456de465f459f2953d87728ab7afb0451890a13e",
+      "bytes": 22936,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "committed_history",
+          "original_path": "README.md",
+          "commit": "35f16d7e80e721a37f19537157a3e2d0a43162c2"
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/3670f6862cbe/NIR_STATUS_TODAY.md",
+      "original_path": "docs/020-nir/NIR_STATUS_TODAY.md",
+      "git_blob": "3670f6862cbe3bded72c257fdfe12d23fb4aab01",
+      "sha256": "6c5755b1ae25fcbb5209b26be293e911e4ffdf986f239edcb1c013b04acc80fb",
+      "bytes": 2084,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "committed_history",
+          "original_path": "docs/020-nir/NIR_STATUS_TODAY.md",
+          "commit": "35f16d7e80e721a37f19537157a3e2d0a43162c2"
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/478393c3f154/INSTALL.md",
+      "original_path": "runtime/nir-formal/INSTALL.md",
+      "git_blob": "478393c3f154154edc9e791a42344a0fec602756",
+      "sha256": "64f761a0328a8259526ecd94bedb28deb6c878d0b13dd0f20d3124dfb22bdcac",
+      "bytes": 8066,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "committed_history",
+          "original_path": "runtime/nir-formal/INSTALL.md",
+          "commit": "35f16d7e80e721a37f19537157a3e2d0a43162c2"
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/d4e9bdc03d60/README.md",
+      "original_path": "runtime/nir-formal/README.md",
+      "git_blob": "d4e9bdc03d60809a626c05f408bff73f518f5fb7",
+      "sha256": "9631201bc65d69600b9499bd8126ae866665ad7869702fb712c38892b5e98f79",
+      "bytes": 7504,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "committed_history",
+          "original_path": "runtime/nir-formal/README.md",
+          "commit": "35f16d7e80e721a37f19537157a3e2d0a43162c2"
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/6949f800e467/RUNBOOK.md",
+      "original_path": "runtime/nir-formal/RUNBOOK.md",
+      "git_blob": "6949f800e467ac5666f7b4a749e9578f7356e9aa",
+      "sha256": "6246865757c88c11fd0d71ec041c2f8aa769c26e54d0c7cade9fd2b56c4668ed",
+      "bytes": 10165,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "committed_history",
+          "original_path": "runtime/nir-formal/RUNBOOK.md",
+          "commit": "35f16d7e80e721a37f19537157a3e2d0a43162c2"
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/50da6e5d4dc9/nir_python_contract.py",
+      "original_path": "runtime/nir-formal/nir_python_contract.py",
+      "git_blob": "50da6e5d4dc9ffaaa2bdcbfe4621d0fbfe375001",
+      "sha256": "5c89c2c1741cd4552627873781e36d7e5a13e827d7f77db1aa70aedf4fab3297",
+      "bytes": 609,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "committed_history",
+          "original_path": "runtime/nir-formal/nir_python_contract.py",
+          "commit": "d5fcbc93db04fa7b2c15f7872ad3ae18911e59b9"
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/2293431584a0/run_nvidia_final_topology.ps1",
+      "original_path": "runtime/nir-formal/run_nvidia_final_topology.ps1",
+      "git_blob": "2293431584a0febbe73b55826cb74e3184558053",
+      "sha256": "53809827490c28cf6946d2ad78bb67a554c6fc06879c0751b506d99d47b30227",
+      "bytes": 4139,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "committed_history",
+          "original_path": "runtime/nir-formal/run_nvidia_final_topology.ps1",
+          "commit": "015bff5cc263fb80eee6e435e48fbcb56f5b43fa"
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/a7ac00ded2a8/run_nvidia_final_topology.ps1",
+      "original_path": "runtime/nir-formal/run_nvidia_final_topology.ps1",
+      "git_blob": "a7ac00ded2a8deef897e083ec52b96364451d616",
+      "sha256": "2d703e4ef0af084b2c7de124e5cc8a9b13bf40c54cf08b33cc1347687daa8e9e",
+      "bytes": 4040,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "committed_history",
+          "original_path": "runtime/nir-formal/run_nvidia_final_topology.ps1",
+          "commit": "9ba211d2c9f88dce84d225bb66c136b716067371"
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/f08550e37d2b/run_nvidia_final_topology.ps1",
+      "original_path": "runtime/nir-formal/run_nvidia_final_topology.ps1",
+      "git_blob": "f08550e37d2b0ac4ae18403d824c06e15e1b0d49",
+      "sha256": "b567829d52c62d9ab7320c1a64b272c99baf88c91708475d69ed5131dc53e112",
+      "bytes": 2298,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "committed_history",
+          "original_path": "runtime/nir-formal/run_nvidia_final_topology.ps1",
+          "commit": "cc362b5d87e85bfe57a5850f97b434406819788d"
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/e57babbdbade/nir_python_contract.py",
+      "original_path": "runtime/nir-formal/nir_python_contract.py",
+      "git_blob": "e57babbdbade6e4e8d38dfb871008b1ef354f2ca",
+      "sha256": "3423c2ed284bd52253a0a6fea563b422decec693258e1c44c7e06ba6e2a56881",
+      "bytes": 633,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "committed_history",
+          "original_path": "runtime/nir-formal/nir_python_contract.py",
+          "commit": "8258fd6b9de9d5d6adc7b055ead4aee380c774d1"
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/29f18144a43d/run_nvidia_final_topology.ps1",
+      "original_path": "runtime/nir-formal/run_nvidia_final_topology.ps1",
+      "git_blob": "29f18144a43d1b996ed160ebcd17151366cce972",
+      "sha256": "91b7b5d416e1a5f44ab9ca4780bb8da644087058f59f238cfd735364eb3d3bb1",
+      "bytes": 2247,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "committed_history",
+          "original_path": "runtime/nir-formal/run_nvidia_final_topology.ps1",
+          "commit": "8258fd6b9de9d5d6adc7b055ead4aee380c774d1"
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/b05155b8fd48/run_ritnet_fullclass_batch.py",
+      "original_path": "runtime/nir-formal/run_ritnet_fullclass_batch.py",
+      "git_blob": "b05155b8fd489ccabef891e3cc4b8a60a8932750",
+      "sha256": "ced4dc45bdd86e5b9e5063ce4c4eef1a80e302bffd42e7acb90f5b6bda9a5262",
+      "bytes": 1395,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "committed_history",
+          "original_path": "runtime/nir-formal/run_ritnet_fullclass_batch.py",
+          "commit": "8258fd6b9de9d5d6adc7b055ead4aee380c774d1"
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/16fea7f584e1/run_ritnet_fullclass_extension.py",
+      "original_path": "runtime/nir-formal/run_ritnet_fullclass_extension.py",
+      "git_blob": "16fea7f584e132181ff7db8deda18de9b534b3a5",
+      "sha256": "c93290c053e850359118d0cb6f34b579b3932eaf47db47f74feb3b57ad062f23",
+      "bytes": 11938,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "committed_history",
+          "original_path": "runtime/nir-formal/run_ritnet_fullclass_extension.py",
+          "commit": "8258fd6b9de9d5d6adc7b055ead4aee380c774d1"
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/78b2bbc5dab1/run_ritnet_fullclass_native_batch.py",
+      "original_path": "runtime/nir-formal/run_ritnet_fullclass_native_batch.py",
+      "git_blob": "78b2bbc5dab1a0f7881dd81036dbb8fac89583f5",
+      "sha256": "cb91323d1df0f253a12ba49d5153e405bfcc58feb2bd2246eab6de371da1f99e",
+      "bytes": 12046,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "committed_history",
+          "original_path": "runtime/nir-formal/run_ritnet_fullclass_native_batch.py",
+          "commit": "8258fd6b9de9d5d6adc7b055ead4aee380c774d1"
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/2cb8eb2f7b12/ritnet_fullclass_final_engine.py",
+      "original_path": "runtime/nir-formal/ritnet_fullclass_final_engine.py",
+      "git_blob": "2cb8eb2f7b127b759750249abb816709411feddb",
+      "sha256": "3f80e4923eebeebc56f34f65111613b22bf97b8257c64b91e63b08bad3d72327",
+      "bytes": 32564,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "committed_history",
+          "original_path": "runtime/nir-formal/ritnet_fullclass_final_engine.py",
+          "commit": "7004e0d3e74be170c8cbf26509a6c22a8b88e45a"
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/6a3e2a9201d5/ritnet_fullclass_workstore.py",
+      "original_path": "runtime/nir-formal/ritnet_fullclass_workstore.py",
+      "git_blob": "6a3e2a9201d5606d48588db7b4fa744c7810b760",
+      "sha256": "72f5a880c9aaea566e8b132ca72faf0e1f11534c61403b7be7875a5ac48a2766",
+      "bytes": 8333,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "committed_history",
+          "original_path": "runtime/nir-formal/ritnet_fullclass_workstore.py",
+          "commit": "7004e0d3e74be170c8cbf26509a6c22a8b88e45a"
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/5246e776ce79/test_ritnet_fullclass_workstore.py",
+      "original_path": "runtime/nir-formal/tests/test_ritnet_fullclass_workstore.py",
+      "git_blob": "5246e776ce79eb5e54b3235c124d4505036b1e57",
+      "sha256": "e5e43100ee9125e34e24bb53d7e21493787dd545ac37161c21338b6dc17e74af",
+      "bytes": 1305,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "committed_history",
+          "original_path": "runtime/nir-formal/tests/test_ritnet_fullclass_workstore.py",
+          "commit": "7004e0d3e74be170c8cbf26509a6c22a8b88e45a"
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/863825031ce2/run_ritnet_fullclass_extension.py",
+      "original_path": "runtime/nir-formal/run_ritnet_fullclass_extension.py",
+      "git_blob": "863825031ce25541cb3e4513d7e5cc1612760ce6",
+      "sha256": "0a42ffd9c70706a15ee795f31a311ca129e37a8c59da4d7977b6903fc40baea5",
+      "bytes": 11849,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "committed_history",
+          "original_path": "runtime/nir-formal/run_ritnet_fullclass_extension.py",
+          "commit": "6778823e20d5779e4922e625601e6a217269c176"
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/0883a38a284d/test_ritnet_fullclass_final_entrypoint.py",
+      "original_path": "runtime/nir-formal/tests/test_ritnet_fullclass_final_entrypoint.py",
+      "git_blob": "0883a38a284d6d2c44c55d8e65fb005bac7bed2d",
+      "sha256": "637e43b6b41f5ed78ba2084062102452e7123334534d2013c98b7badd92c1441",
+      "bytes": 5259,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "committed_history",
+          "original_path": "runtime/nir-formal/tests/test_ritnet_fullclass_final_entrypoint.py",
+          "commit": "6778823e20d5779e4922e625601e6a217269c176"
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/1653b37fa52a/run_ritnet_fullclass_extension.py",
+      "original_path": "runtime/nir-formal/run_ritnet_fullclass_extension.py",
+      "git_blob": "1653b37fa52abfb750d88f9886bdc517a26f882f",
+      "sha256": "3fc2b0efaabc2db71ac840a228f35118de9e2bcf5783956b06b61022c8206930",
+      "bytes": 7361,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "committed_history",
+          "original_path": "runtime/nir-formal/run_ritnet_fullclass_extension.py",
+          "commit": "47d563d75ab8dcbb2b543e337aae2ce8983caa46"
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/6c8facadab53/config.yaml",
+      "original_path": "runtime/nir-formal/config.yaml",
+      "git_blob": "6c8facadab53d7f6fe33e7b2c6463bf102bde8cb",
+      "sha256": "8ebf4ba744a2f4ee51e7c2ce7bd6465730617926c715efb5dbf98bdcf497ba9a",
+      "bytes": 3012,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "committed_history",
+          "original_path": "runtime/nir-formal/config.yaml",
+          "commit": "246fb6f2960b246876a7b4401b57ed683703336b"
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/f71c3e34c75f/2026-08-28_NVIDIA_NIR_AMD_v7_semantic_port.md",
+      "original_path": "docs/020-nir/2026-08-28_NVIDIA_NIR_AMD_v7_semantic_port.md",
+      "git_blob": "f71c3e34c75f79e7947ba45de97407cf7ebee4e5",
+      "sha256": "18234c5d5592a9a1ddd30c3301ae65b282f9daa50a28a08829d0cd022be94b39",
+      "bytes": 3183,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "committed_history",
+          "original_path": "docs/020-nir/2026-08-28_NVIDIA_NIR_AMD_v7_semantic_port.md",
+          "commit": "a2cbac1358dc8174f352970844bc100fe842efbc"
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/740c18df8916/ritnet_fullclass_final_engine.py",
+      "original_path": "runtime/nir-formal/ritnet_fullclass_final_engine.py",
+      "git_blob": "740c18df89160047b3e0107c6c968285b4a22b4d",
+      "sha256": "cf40819be6fa358b3a03780d8c74dc1b61c51724d9a969ef6c34e63d54fbe67d",
+      "bytes": 32032,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "committed_history",
+          "original_path": "runtime/nir-formal/ritnet_fullclass_final_engine.py",
+          "commit": "a2cbac1358dc8174f352970844bc100fe842efbc"
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/5bc07cc080c7/ritnet_fullclass_metric_adapter.py",
+      "original_path": "runtime/nir-formal/ritnet_fullclass_metric_adapter.py",
+      "git_blob": "5bc07cc080c7e1fcd62f7a8c67ae66c3d4a8d04e",
+      "sha256": "fe8bbb506b4c1e92764ab516bc572ce6f3352d427bc80b856ffc2af9f14e4891",
+      "bytes": 4280,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "committed_history",
+          "original_path": "runtime/nir-formal/ritnet_fullclass_metric_adapter.py",
+          "commit": "a2cbac1358dc8174f352970844bc100fe842efbc"
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/f8ed1450cba6/ritnet_fullclass_qc.py",
+      "original_path": "runtime/nir-formal/ritnet_fullclass_qc.py",
+      "git_blob": "f8ed1450cba6441c0f68d864b9a3001a1093d535",
+      "sha256": "a3a5f2bfffe46320fa729a1e9a6fda57b62f126c2a290777ca7311405272cc3c",
+      "bytes": 10949,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "committed_history",
+          "original_path": "runtime/nir-formal/ritnet_fullclass_qc.py",
+          "commit": "a2cbac1358dc8174f352970844bc100fe842efbc"
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/4b7799a61f7f/ritnet_fullclass_schema.py",
+      "original_path": "runtime/nir-formal/ritnet_fullclass_schema.py",
+      "git_blob": "4b7799a61f7f49e34439f46ad9d965f4fd71c9b3",
+      "sha256": "6da778a19f6fef36e9cd5abf909d3d7ccf65d8a7f433b4d3355bda43aa8d1ad6",
+      "bytes": 5741,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "committed_history",
+          "original_path": "runtime/nir-formal/ritnet_fullclass_schema.py",
+          "commit": "a2cbac1358dc8174f352970844bc100fe842efbc"
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/4d05c8139d63/ritnet_fullclass_source.py",
+      "original_path": "runtime/nir-formal/ritnet_fullclass_source.py",
+      "git_blob": "4d05c8139d63b3cc5fbd9af5cddefba094b93595",
+      "sha256": "a03d1f51c8161516c7677cc989e3c1505811514397257ef05ce12040e7a1b131",
+      "bytes": 11774,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "committed_history",
+          "original_path": "runtime/nir-formal/ritnet_fullclass_source.py",
+          "commit": "a2cbac1358dc8174f352970844bc100fe842efbc"
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/ff18e38f667e/ritnet_fullclass_temporal.py",
+      "original_path": "runtime/nir-formal/ritnet_fullclass_temporal.py",
+      "git_blob": "ff18e38f667e3d8632de9861fbad0de1a5093b46",
+      "sha256": "3b67e42efdb00fdf2b68ae7e58296eb862a9311e0b1e8600c290c591760bd61b",
+      "bytes": 8382,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "committed_history",
+          "original_path": "runtime/nir-formal/ritnet_fullclass_temporal.py",
+          "commit": "a2cbac1358dc8174f352970844bc100fe842efbc"
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/8fa7011950c8/ritnet_fullclass_uncertainty.py",
+      "original_path": "runtime/nir-formal/ritnet_fullclass_uncertainty.py",
+      "git_blob": "8fa7011950c89a5bb962bccc58318aeba5375f42",
+      "sha256": "a741b90746b2830562a4bff1fd9d394f04f816917541c2566d3ad18b861f7578",
+      "bytes": 16753,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "committed_history",
+          "original_path": "runtime/nir-formal/ritnet_fullclass_uncertainty.py",
+          "commit": "a2cbac1358dc8174f352970844bc100fe842efbc"
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/9459dc0bcb4d/run_ritnet_fullclass_native_batch.py",
+      "original_path": "runtime/nir-formal/run_ritnet_fullclass_native_batch.py",
+      "git_blob": "9459dc0bcb4ded4e3d58506427bede83f58ca662",
+      "sha256": "86e3d4c94738df05b3c9683330b798ed5691b1d6584f9e717edb85db01359e0f",
+      "bytes": 11962,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "committed_history",
+          "original_path": "runtime/nir-formal/run_ritnet_fullclass_native_batch.py",
+          "commit": "a2cbac1358dc8174f352970844bc100fe842efbc"
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/647b144702b2/test_ritnet_fullclass_v7_contract.py",
+      "original_path": "runtime/nir-formal/tests/test_ritnet_fullclass_v7_contract.py",
+      "git_blob": "647b144702b2175edd0820abf4b98fbea4e2ca7b",
+      "sha256": "d7c6f914a4f7c0a683053635bcc56fe17740beb48e73da71d4a654f7bc6231ba",
+      "bytes": 5081,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "committed_history",
+          "original_path": "runtime/nir-formal/tests/test_ritnet_fullclass_v7_contract.py",
+          "commit": "a2cbac1358dc8174f352970844bc100fe842efbc"
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/7b852e2191eb/benchmark_nir_fullclass_compact.py",
+      "original_path": "scripts/benchmark_nir_fullclass_compact.py",
+      "git_blob": "7b852e2191eb7d98aa2dac6b0489dde263f80fd3",
+      "sha256": "352d0b0c1175cca16110e685d313525463686ee942b38b214d3cb3e613af2105",
+      "bytes": 2451,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "committed_history",
+          "original_path": "scripts/benchmark_nir_fullclass_compact.py",
+          "commit": "a2cbac1358dc8174f352970844bc100fe842efbc"
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/0816d26dfb0e/verify_nir_fullclass_compact_parity.py",
+      "original_path": "scripts/verify_nir_fullclass_compact_parity.py",
+      "git_blob": "0816d26dfb0e894efd7eca2a8c97accf00813e24",
+      "sha256": "ba4aa2f1602463afd74290a91b28b5b9cf4f2fb00e1fd508b08adb0a361c0084",
+      "bytes": 2202,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "committed_history",
+          "original_path": "scripts/verify_nir_fullclass_compact_parity.py",
+          "commit": "a2cbac1358dc8174f352970844bc100fe842efbc"
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/dca12dce4cf4/2026-08-28_NVIDIA_NIR_fullclass_production_walltime.md",
+      "original_path": "docs/020-nir/2026-08-28_NVIDIA_NIR_fullclass_production_walltime.md",
+      "git_blob": "dca12dce4cf49d343f8ca2c0feb2ba130564aaaf",
+      "sha256": "c4a49b5228c2682a2d1bd93559f5ad8d2f452490aed6e246de4ebf54c8ec8e89",
+      "bytes": 3921,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "committed_history",
+          "original_path": "docs/020-nir/2026-08-28_NVIDIA_NIR_fullclass_production_walltime.md",
+          "commit": "07b00e20c4ffedb036158cf313e4eee2d25a7525"
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/0c1059aa5d7d/2026-08-28_NVIDIA_NIR_fullclass_stage_profile.md",
+      "original_path": "docs/020-nir/2026-08-28_NVIDIA_NIR_fullclass_stage_profile.md",
+      "git_blob": "0c1059aa5d7d102617af4209f3e5746f488e3fcd",
+      "sha256": "f45b255e63360604aabc306c31865ba29160ac2c5ae584b3ff73d8e35824af5c",
+      "bytes": 5634,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "committed_history",
+          "original_path": "docs/020-nir/2026-08-28_NVIDIA_NIR_fullclass_stage_profile.md",
+          "commit": "4cf50fe28848663cf9f98727da8402f00be9dcf0"
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/8225e11dd64f/profile_nir_fullclass_stages.py",
+      "original_path": "scripts/profile_nir_fullclass_stages.py",
+      "git_blob": "8225e11dd64f8b33525503235e83778adffd59de",
+      "sha256": "3a978257bb4404d0dadf844fa437648f4c22eba8364a3f3e7cd8a76be3d787ee",
+      "bytes": 12137,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "committed_history",
+          "original_path": "scripts/profile_nir_fullclass_stages.py",
+          "commit": "4cf50fe28848663cf9f98727da8402f00be9dcf0"
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/69fbfcbdad8d/2026-08-28_NVIDIA_NIR_fullclass_old_vs_current_benchmark.md",
+      "original_path": "docs/020-nir/2026-08-28_NVIDIA_NIR_fullclass_old_vs_current_benchmark.md",
+      "git_blob": "69fbfcbdad8df817e0e714e6dc49a691526c50d6",
+      "sha256": "f7fff66b727b0e8312ea6417397679a13adc610795e4dc7a64b39d6756d87518",
+      "bytes": 4720,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "committed_history",
+          "original_path": "docs/020-nir/2026-08-28_NVIDIA_NIR_fullclass_old_vs_current_benchmark.md",
+          "commit": "a455411ede3a2d69bde2e02a194a8be484b8e409"
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/d3b761109010/benchmark_nir_fullclass.py",
+      "original_path": "scripts/benchmark_nir_fullclass.py",
+      "git_blob": "d3b761109010de92f5af2112edb27d6c6cf8e6ee",
+      "sha256": "cc7dbb7189ce1226e8db803a364aa2d94ef5d2869ac7961481f538d18cc66c5c",
+      "bytes": 12167,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "committed_history",
+          "original_path": "scripts/benchmark_nir_fullclass.py",
+          "commit": "a455411ede3a2d69bde2e02a194a8be484b8e409"
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/b804fed629fc/2026-08-28_NVIDIA_NIR_fullclass_performance_benchmark.md",
+      "original_path": "docs/020-nir/2026-08-28_NVIDIA_NIR_fullclass_performance_benchmark.md",
+      "git_blob": "b804fed629fc7b20ce6d65a6774618a443bd8151",
+      "sha256": "8f89d9dfdafa6984cf4d2ef3ecd9100994b062a63a1d022d99058a465efbb82d",
+      "bytes": 4121,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "committed_history",
+          "original_path": "docs/020-nir/2026-08-28_NVIDIA_NIR_fullclass_performance_benchmark.md",
+          "commit": "2a988f7ac790b01ee4fbd598f84aba8bdd9f61bc"
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/ed4eb5b776c0/benchmark_nir_fullclass.py",
+      "original_path": "scripts/benchmark_nir_fullclass.py",
+      "git_blob": "ed4eb5b776c0d5888bf118b62d0873571f7e5c2b",
+      "sha256": "a47539f97666e78ceaac24e3e37cf881db7e28bb366a70011f6e0cc4cee3dbfe",
+      "bytes": 9229,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "committed_history",
+          "original_path": "scripts/benchmark_nir_fullclass.py",
+          "commit": "2a988f7ac790b01ee4fbd598f84aba8bdd9f61bc"
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/1fb8a0cea82a/benchmark_nir_fullclass.py",
+      "original_path": "scripts/benchmark_nir_fullclass.py",
+      "git_blob": "1fb8a0cea82a86b1d7bdc084591d3328b8508148",
+      "sha256": "4d129bfe74423a2057629710b8964215a341a438454d638a73cadac10a76bb99",
+      "bytes": 9097,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "committed_history",
+          "original_path": "scripts/benchmark_nir_fullclass.py",
+          "commit": "c21c9bbbca8f75d62d756f9990492502d9359a7a"
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/829963593143/2026-08-28_NVIDIA_NIR_fullclass_identity_gate_repair.md",
+      "original_path": "docs/020-nir/2026-08-28_NVIDIA_NIR_fullclass_identity_gate_repair.md",
+      "git_blob": "82996359314305dccb469a2af853a10098c5ced6",
+      "sha256": "78c5685cf4a6a9f392f2a73f888a6694332e212bf01879056fffc48c41da9f64",
+      "bytes": 3332,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "committed_history",
+          "original_path": "docs/020-nir/2026-08-28_NVIDIA_NIR_fullclass_identity_gate_repair.md",
+          "commit": "7fd545477e1d99b4458ffe807468cf2efce9d17e"
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/12613dc4ced7/2026-08-28_NVIDIA_NIR_fullclass_identity_gate_repair.md",
+      "original_path": "docs/020-nir/2026-08-28_NVIDIA_NIR_fullclass_identity_gate_repair.md",
+      "git_blob": "12613dc4ced791e7ed63cda679fc066340894be1",
+      "sha256": "78dc905d992cbc187b6237fc410137410765ed84650990855347179e437a37ee",
+      "bytes": 2976,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "committed_history",
+          "original_path": "docs/020-nir/2026-08-28_NVIDIA_NIR_fullclass_identity_gate_repair.md",
+          "commit": "eb75d7f52656d794681dad9a09580439a9a93227"
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/50ca0d8a8894/ritnet_fullclass_final_completion.py",
+      "original_path": "runtime/nir-formal/ritnet_fullclass_final_completion.py",
+      "git_blob": "50ca0d8a8894b745f6b9e631fcb495bbb15c295a",
+      "sha256": "a689ddab86cc1e0d8e4d3552c40686f1815ab457f13510a871c5ff86e6ea4d32",
+      "bytes": 27342,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "committed_history",
+          "original_path": "runtime/nir-formal/ritnet_fullclass_final_completion.py",
+          "commit": "eb75d7f52656d794681dad9a09580439a9a93227"
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/aee76101f61c/test_ritnet_fullclass_final_completion.py",
+      "original_path": "runtime/nir-formal/tests/test_ritnet_fullclass_final_completion.py",
+      "git_blob": "aee76101f61cda859c0dbea98494125a5a49d093",
+      "sha256": "6b5853b87ad3bbbbcf15b7d2605e03b243340bf272fd1ca34b30e928cd5bad92",
+      "bytes": 1825,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "committed_history",
+          "original_path": "runtime/nir-formal/tests/test_ritnet_fullclass_final_completion.py",
+          "commit": "eb75d7f52656d794681dad9a09580439a9a93227"
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/b4586f02725d/2026-08-28_NVIDIA_NIR_fullclass重跑交接.md",
+      "original_path": "docs/020-nir/2026-08-28_NVIDIA_NIR_fullclass重跑交接.md",
+      "git_blob": "b4586f02725dce19b29ff42c17a895290c7c8922",
+      "sha256": "90ad5832e4372a30b36aefce8c22d7e0f77528d5b7b8f361ed0320ea52d7b5a0",
+      "bytes": 3722,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "committed_history",
+          "original_path": "docs/020-nir/2026-08-28_NVIDIA_NIR_fullclass重跑交接.md",
+          "commit": "cf5aa633ccdb8928bef88e5ba74b4449d812b04e"
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/fc2fb9489a63/2026-08-28_NVIDIA_NIR_fullclass重跑交接.md",
+      "original_path": "docs/020-nir/2026-08-28_NVIDIA_NIR_fullclass重跑交接.md",
+      "git_blob": "fc2fb9489a637dc00037e5599edd9cd3eea39b04",
+      "sha256": "af375a38e29e5db3ce6760474b16cc48e19995a1c9ff76ae924126db4098601b",
+      "bytes": 2866,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "committed_history",
+          "original_path": "docs/020-nir/2026-08-28_NVIDIA_NIR_fullclass重跑交接.md",
+          "commit": "4d555149c749b18292e4589824a7600ec9a5477f"
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/a62f3223e050/ritnet_fullclass_source.py",
+      "original_path": "runtime/nir-formal/ritnet_fullclass_source.py",
+      "git_blob": "a62f3223e05042b1c0ef9daed98b1e4607125c42",
+      "sha256": "381e411b00832234afebde0ece40c6ce8306d33921ea212f6e5f422f842994f2",
+      "bytes": 11449,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "committed_history",
+          "original_path": "runtime/nir-formal/ritnet_fullclass_source.py",
+          "commit": "a00dd0802740662980080c28577dfbb72991deef"
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/373e39ff0a9f/test_ritnet_fullclass_native_batch.py",
+      "original_path": "runtime/nir-formal/tests/test_ritnet_fullclass_native_batch.py",
+      "git_blob": "373e39ff0a9f9360a7648382a286d4ae8f1f81eb",
+      "sha256": "3555eb5fbf9eded8fea156dcb4cf6c195c8723658f3ca84a94a098ad48d2532c",
+      "bytes": 6265,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "committed_history",
+          "original_path": "runtime/nir-formal/tests/test_ritnet_fullclass_native_batch.py",
+          "commit": "a00dd0802740662980080c28577dfbb72991deef"
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/4843c044c910/ritnet_fullclass_source.py",
+      "original_path": "runtime/nir-formal/ritnet_fullclass_source.py",
+      "git_blob": "4843c044c91033b77aa838edb4b2e152201d9491",
+      "sha256": "fda6f0fc66ec122168642fb8a0cbb76f706bb7cfc809f64d2c8a632aedd6fbba",
+      "bytes": 11476,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "committed_history",
+          "original_path": "runtime/nir-formal/ritnet_fullclass_source.py",
+          "commit": "3c9da4d6e20ba44177483ab2a65b8e6845836444"
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/108358dcdfa2/test_ritnet_fullclass_native_batch.py",
+      "original_path": "runtime/nir-formal/tests/test_ritnet_fullclass_native_batch.py",
+      "git_blob": "108358dcdfa20fa5c38c45c645c3a02b84af92c3",
+      "sha256": "6b66c065b079e51f7286470b6cdfee252ce3732e5b7338795a19d743085e2a5c",
+      "bytes": 5122,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "committed_history",
+          "original_path": "runtime/nir-formal/tests/test_ritnet_fullclass_native_batch.py",
+          "commit": "3c9da4d6e20ba44177483ab2a65b8e6845836444"
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/02a8b03d6298/formal_completion.py",
+      "original_path": "runtime/nir-formal/formal_completion.py",
+      "git_blob": "02a8b03d6298f55381cc3f481479cf396fb2cd19",
+      "sha256": "cea870063e85e0bc89a5b5ee1f242382299cc6b4dc135b70e2f755dfeacb94bd",
+      "bytes": 19595,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "committed_history",
+          "original_path": "runtime/nir-formal/formal_completion.py",
+          "commit": "f2298a26e1b582b82f4444a0ebf97e1de9a3e662"
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/2e1e84afdfcd/ritnet_fullclass_source.py",
+      "original_path": "runtime/nir-formal/ritnet_fullclass_source.py",
+      "git_blob": "2e1e84afdfcd93e2c61e4ed3aca881bf26917219",
+      "sha256": "ac3e56b6c780016664d8f6649ad5b219f8e27d6971d2e198a5e3e40eb234731b",
+      "bytes": 11353,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "committed_history",
+          "original_path": "runtime/nir-formal/ritnet_fullclass_source.py",
+          "commit": "f2298a26e1b582b82f4444a0ebf97e1de9a3e662"
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/5a471aa8969b/run_ritnet_fullclass_native_batch.py",
+      "original_path": "runtime/nir-formal/run_ritnet_fullclass_native_batch.py",
+      "git_blob": "5a471aa8969b96a65534ffeea34b8b76a0029508",
+      "sha256": "df44f23654794d94708481d1babfa382e2ddaf1c4f7cebfec088013f9f9b15bb",
+      "bytes": 11912,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "committed_history",
+          "original_path": "runtime/nir-formal/run_ritnet_fullclass_native_batch.py",
+          "commit": "f2298a26e1b582b82f4444a0ebf97e1de9a3e662"
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/acd97fde0334/test_ritnet_fullclass_native_batch.py",
+      "original_path": "runtime/nir-formal/tests/test_ritnet_fullclass_native_batch.py",
+      "git_blob": "acd97fde0334156d492982f74026f2f72244cb5b",
+      "sha256": "97300f5cdb51b87cdf66017043045e7cd73ed3e06c9836473b146f2422d18770",
+      "bytes": 4970,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "committed_history",
+          "original_path": "runtime/nir-formal/tests/test_ritnet_fullclass_native_batch.py",
+          "commit": "f2298a26e1b582b82f4444a0ebf97e1de9a3e662"
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/ff3bce380219/rgb_analysis.yaml",
+      "original_path": "configs/rgb_analysis.yaml",
+      "git_blob": "ff3bce3802196e50a407ed4fc4d3c9315c76bafa",
+      "sha256": "bab3293a205dab0d526e51049275e7c69e5fcb6e2862021b6ddc2327a392ec00",
+      "bytes": 6292,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "committed_history",
+          "original_path": "configs/rgb_analysis.yaml",
+          "commit": "0307b1b955f89fe5858fad36f4ec1b3373b3f0c2"
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/901e3e793c4f/face_formal_cuda.py",
+      "original_path": "scripts/face_formal_cuda.py",
+      "git_blob": "901e3e793c4fc18bb07ca1ae137ef77c016a2ad6",
+      "sha256": "326c3c9ccc3f0f060451b0ad5afc590bfbbf20922bd3bf6ec8b965c2cea40f4b",
+      "bytes": 24104,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "committed_history",
+          "original_path": "scripts/face_formal_cuda.py",
+          "commit": "0307b1b955f89fe5858fad36f4ec1b3373b3f0c2"
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/42bea4649d24/run_rgb_formal_cohort.ps1",
+      "original_path": "scripts/run_rgb_formal_cohort.ps1",
+      "git_blob": "42bea4649d2489ab7289de4d9181a1c762d332dd",
+      "sha256": "2cff4df6a961147b4498be61c6682a1a4a462e3ef7bfb7677c838651270d50fd",
+      "bytes": 5257,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "committed_history",
+          "original_path": "scripts/run_rgb_formal_cohort.ps1",
+          "commit": "0307b1b955f89fe5858fad36f4ec1b3373b3f0c2"
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/24f49bef477e/motion.py",
+      "original_path": "src/attention_pipeline/rgb/motion.py",
+      "git_blob": "24f49bef477edce9bef85d3c216da2baac3e33cc",
+      "sha256": "91bd783cde09ccad9bc465715e5ee4f331241fcd67fcc653c7a2a14d9ba2fe6b",
+      "bytes": 17113,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "committed_history",
+          "original_path": "src/attention_pipeline/rgb/motion.py",
+          "commit": "0307b1b955f89fe5858fad36f4ec1b3373b3f0c2"
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/a1a3022b7941/REPOSITORY_SYNC.md",
+      "original_path": "REPOSITORY_SYNC.md",
+      "git_blob": "a1a3022b79412f19e3642e073052492bc37ac571",
+      "sha256": "6cde4717c3fb7537698a98ef1ba96adbe730e34bed7388e14eb6e3c06c85a413",
+      "bytes": 1310,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "committed_history",
+          "original_path": "REPOSITORY_SYNC.md",
+          "commit": "fab672826c295284fb8b6fa1f4bebb7d2ba885cd"
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/e0179fcce4c6/REPOSITORY_SYNC.md",
+      "original_path": "REPOSITORY_SYNC.md",
+      "git_blob": "e0179fcce4c6532b22d254d9742f81f9043eca51",
+      "sha256": "b35b2792f74b8199e5a65dfd3a0cd5163e4e6e2cced909a45c7642cd9e58853d",
+      "bytes": 1189,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "committed_history",
+          "original_path": "REPOSITORY_SYNC.md",
+          "commit": "fe1f5a08b11f4d934e6911770d8b8d8b36ba34b0"
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/cc25d2893d85/README.md",
+      "original_path": "docs/030-cross-modal/README.md",
+      "git_blob": "cc25d2893d850b99227f80be42fd5c105b2ca94e",
+      "sha256": "87bf7a92aa49cbc5cdbbb8fd87ccf9a1c289c632a6d71493f6a2262ebe9c4364",
+      "bytes": 581,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "committed_history",
+          "original_path": "docs/030-cross-modal/README.md",
+          "commit": "825238ce6a7fab721b48fbf80039ab23bbc4d671"
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/70f23d2720cc/README.md",
+      "original_path": "docs/020-rgb/README.md",
+      "git_blob": "70f23d2720cc76405e29316d1093c0cf7e57b0ea",
+      "sha256": "758511d33aeb808185c36be726bb37450e6f6c75891e9e9f6922fb8182bc7cd4",
+      "bytes": 681,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "committed_history",
+          "original_path": "docs/020-rgb/README.md",
+          "commit": "3c99eee0a892461360cda4833cc43b3142f71184"
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/c29cde9d6c30/README.md",
+      "original_path": "docs/080-decisions/README.md",
+      "git_blob": "c29cde9d6c30e03bd6ea002033be77b4fad4fa8a",
+      "sha256": "6788bc03353b96525ede68be85341c68e0cfe961c68bfc019f0fbe730e46ff47",
+      "bytes": 601,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "committed_history",
+          "original_path": "docs/080-decisions/README.md",
+          "commit": "4314cff59b5c41b0bd3d37e442193f77b816a24e"
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/61f5dfd92664/README.md",
+      "original_path": "docs/070-architecture/README.md",
+      "git_blob": "61f5dfd926642941db5124d2f52f6c287e2228ba",
+      "sha256": "189762b2d908b831d6b65ed7bc688e523f26be1087339302542b49367dae2a87",
+      "bytes": 533,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "committed_history",
+          "original_path": "docs/070-architecture/README.md",
+          "commit": "e4ede017bd6fe7b40a11644bd40d77313ae8a6e6"
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/892a3a3c6417/README.md",
+      "original_path": "docs/060-methods/README.md",
+      "git_blob": "892a3a3c6417787887d50c29e9482ceec7d7a537",
+      "sha256": "a65d1feb47db5b38e54c925144ea0330dcf055eb07677c50cec24c095f71bde2",
+      "bytes": 913,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "committed_history",
+          "original_path": "docs/060-methods/README.md",
+          "commit": "ca5dc3f636c7d05edd1f0010a583bd56029bac38"
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/c2779843874d/README.md",
+      "original_path": "docs/README.md",
+      "git_blob": "c2779843874d0e871ecca9c1a6fb563420340754",
+      "sha256": "d14ac9ac636dab9c4e9e9620163aa48f83f2069435993acc093518e431e5a81e",
+      "bytes": 1622,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "committed_history",
+          "original_path": "docs/README.md",
+          "commit": "1e34a8fc18a7c2d86def80cb0d9264951c88e1b5"
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/bffe14f31fb9/README.md",
+      "original_path": "artifacts/archive/README.md",
+      "git_blob": "bffe14f31fb9253fc28366cb6914fe999fd9c459",
+      "sha256": "f62364a3e5a562de50d072d0b5b75ee3209d00a40befde69c7ffe3cb55055b72",
+      "bytes": 1762,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "committed_history",
+          "original_path": "artifacts/archive/README.md",
+          "commit": "6986ccf77f4769fa247122ac95e2b2714d818194"
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/295f3cc5b7e9/README.md",
+      "original_path": "artifacts/README.md",
+      "git_blob": "295f3cc5b7e9d413a35f580a7f728f25dea3ae74",
+      "sha256": "bb9b6a20c5c4c452a4581d4c62f68faf1e2e4af8b2dd7ca37f3962b0ceed0e0a",
+      "bytes": 2312,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "committed_history",
+          "original_path": "artifacts/README.md",
+          "commit": "dae88a456f76491d14710f617773b8b7c89a7892"
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/8f6d4c4c2def/README.md",
+      "original_path": "runtime/README.md",
+      "git_blob": "8f6d4c4c2defa79ec71062cee257d9222117a576",
+      "sha256": "2969669c86ed5e1591c8490fe91b20f2a01298c9805f9977385cc6af22516ee3",
+      "bytes": 2294,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "committed_history",
+          "original_path": "runtime/README.md",
+          "commit": "0551c07b1019d2fe18ee0a68ac8107c66ba60ee6"
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/72a8de95a32e/README.md",
+      "original_path": "README.md",
+      "git_blob": "72a8de95a32e6348ff6e1e8e18e6e77a2c0b1c9e",
+      "sha256": "5408a35a6658208497ae053a92320bfe08e7d3fb354e7aebd7c08855ef32379e",
+      "bytes": 3831,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "committed_history",
+          "original_path": "README.md",
+          "commit": "43d20d6d434262d0d726e658da91ea89d0ce328f"
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/f1682c709f41/README.md",
+      "original_path": "artifacts/archive/README.md",
+      "git_blob": "f1682c709f415c74cd81eb95c3c09e09403de161",
+      "sha256": "3f8d87dfe185e0503768b12e5bac66091fee1df449c0e10430997ecb3de97dc7",
+      "bytes": 3365,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "committed_history",
+          "original_path": "artifacts/archive/README.md",
+          "commit": "2a1cb3e17c296f88893b0f38cd88fe401e23869b"
+        },
+        {
+          "kind": "committed_history",
+          "original_path": "finish/00-目录与映射.md",
+          "commit": "23615d3bc4fee7be899b5d9ebbc792583211a473"
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/ed050dc1e23a/README.md",
+      "original_path": "configs/README.md",
+      "git_blob": "ed050dc1e23a8d80c346b4bfd630426812b6bf58",
+      "sha256": "ed130c27f10685ed955978ce2d83c6e00cafd9149de810c06d3767965f02a5d4",
+      "bytes": 2366,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "committed_history",
+          "original_path": "configs/README.md",
+          "commit": "2a1cb3e17c296f88893b0f38cd88fe401e23869b"
+        },
+        {
+          "kind": "committed_history",
+          "original_path": "configs/00-目录与映射.md",
+          "commit": "fcfadda2ee7a258a1922da23d1e3665bcec2ae6b"
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/16d9d294e71d/README.md",
+      "original_path": "docs/010-nir/README.md",
+      "git_blob": "16d9d294e71d89496d7bc9ad11d20dabd9805f1d",
+      "sha256": "d519a77eccf995cbf6ba171706922fef20589dc7cd7a0dd35777f3ca44df6df2",
+      "bytes": 10846,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "committed_history",
+          "original_path": "docs/010-nir/README.md",
+          "commit": "2a1cb3e17c296f88893b0f38cd88fe401e23869b"
+        },
+        {
+          "kind": "committed_history",
+          "original_path": "docs/010-nir/00-目录与映射.md",
+          "commit": "21fb5aed10832674550b24561f30a91b76576c33"
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/04e3093c09fd/README.md",
+      "original_path": "docs/020-rgb/README.md",
+      "git_blob": "04e3093c09fdca4f8be8739bf9a569df3caaf46c",
+      "sha256": "b80c0abfc31cfe464cabd44b94cd50de9d15cb6e5749b1d96397d29cb449e8ba",
+      "bytes": 1198,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "committed_history",
+          "original_path": "docs/020-rgb/README.md",
+          "commit": "2a1cb3e17c296f88893b0f38cd88fe401e23869b"
+        },
+        {
+          "kind": "committed_history",
+          "original_path": "docs/020-rgb/00-目录与映射.md",
+          "commit": "9afcbcc7b818a344868d1d74d933b4ee465ca0c5"
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/13d439641c26/README.md",
+      "original_path": "docs/030-cross-modal/README.md",
+      "git_blob": "13d439641c2653ca78b9053d44432fccd757e91b",
+      "sha256": "97f2b885f07fd956431a6947ec211c64053b0e8a499c5b5811889628c85e2498",
+      "bytes": 1208,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "committed_history",
+          "original_path": "docs/030-cross-modal/README.md",
+          "commit": "2a1cb3e17c296f88893b0f38cd88fe401e23869b"
+        },
+        {
+          "kind": "committed_history",
+          "original_path": "docs/030-cross-modal/00-目录与映射.md",
+          "commit": "9e6539ec1154c479cba829416b830a0582278c3e"
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/6093b178ec91/README.md",
+      "original_path": "docs/040-behavior/README.md",
+      "git_blob": "6093b178ec9164daaf9fe2fcaadf91cf0a4eb6e0",
+      "sha256": "89149847709eaa56f9077114233011500441a74f738861d18311e90ebd1fc242",
+      "bytes": 3548,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "committed_history",
+          "original_path": "docs/040-behavior/README.md",
+          "commit": "2a1cb3e17c296f88893b0f38cd88fe401e23869b"
+        },
+        {
+          "kind": "committed_history",
+          "original_path": "docs/040-behavior/00-目录与映射.md",
+          "commit": "257222f7ec07c5c6b361510c5c73a5960dbcc360"
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/076d3bcfda5e/README.md",
+      "original_path": "docs/060-methods/README.md",
+      "git_blob": "076d3bcfda5e358a9ddf558a7b7f815c7b3b9e66",
+      "sha256": "57f882d274580c07d28edc23b0e18b0288b931fd5137b8f6ee41ed094c29f4ee",
+      "bytes": 1779,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "committed_history",
+          "original_path": "docs/060-methods/README.md",
+          "commit": "2a1cb3e17c296f88893b0f38cd88fe401e23869b"
+        },
+        {
+          "kind": "committed_history",
+          "original_path": "docs/060-methods/00-目录与映射.md",
+          "commit": "362e61a522b260327583d38d9df04c8687b7acf7"
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/4cb8df946d73/README.md",
+      "original_path": "docs/070-architecture/README.md",
+      "git_blob": "4cb8df946d730f58f3a096e63e7a22f88347cd7a",
+      "sha256": "40620fa5094b02745858ff937a74039a961ed0662b34fd0d5fa871a25cf94b96",
+      "bytes": 991,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "committed_history",
+          "original_path": "docs/070-architecture/README.md",
+          "commit": "2a1cb3e17c296f88893b0f38cd88fe401e23869b"
+        },
+        {
+          "kind": "committed_history",
+          "original_path": "docs/070-architecture/00-目录与映射.md",
+          "commit": "fb7f43d933867e972d11a53f8ffb3079ed23d7e4"
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/67d7799c06dc/README.md",
+      "original_path": "docs/080-decisions/README.md",
+      "git_blob": "67d7799c06dc7d3ee47fa7d5ffb4dd08acdf6896",
+      "sha256": "afaaa3cf861c56bb49a3ca982b6f65fe51941b5a4cbb079f8abdc9745747bf51",
+      "bytes": 1177,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "committed_history",
+          "original_path": "docs/080-decisions/README.md",
+          "commit": "2a1cb3e17c296f88893b0f38cd88fe401e23869b"
+        },
+        {
+          "kind": "committed_history",
+          "original_path": "docs/080-decisions/00-目录与映射.md",
+          "commit": "6354500ea67929b857604b8abb0332609853608a"
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/a1a22b41d99f/README.md",
+      "original_path": "docs/README.md",
+      "git_blob": "a1a22b41d99fb31b881aeefa00ca8d32d0520422",
+      "sha256": "4825466684a12d4c527239bee999c14bf6a1686e71403be69432f88eec44ef33",
+      "bytes": 3359,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "committed_history",
+          "original_path": "docs/README.md",
+          "commit": "2a1cb3e17c296f88893b0f38cd88fe401e23869b"
+        },
+        {
+          "kind": "committed_history",
+          "original_path": "docs/00-目录与映射.md",
+          "commit": "9c872c93c99b6e6f9095ca5cc49f131cdbad7b01"
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/baa1bb742677/README.md",
+      "original_path": "docs/工作记录/README.md",
+      "git_blob": "baa1bb742677a9cd5c2dfcb0fb7215506456a6aa",
+      "sha256": "a0da3635a5cbeb76b67614d7e09a3650441ae58b4660372996d87927a75b8abc",
+      "bytes": 15227,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "committed_history",
+          "original_path": "docs/工作记录/README.md",
+          "commit": "2a1cb3e17c296f88893b0f38cd88fe401e23869b"
+        },
+        {
+          "kind": "committed_history",
+          "original_path": "docs/工作记录/00-目录与映射.md",
+          "commit": "bf2cffacb44ff11d7db8b9facfd318b16c6f0b4d"
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/9c103122a3e6/README.md",
+      "original_path": "scripts/README.md",
+      "git_blob": "9c103122a3e6fc5d493fc9165af6ab61b2e14369",
+      "sha256": "e05cfb50571639acf166483951407495ce06346ffc94a6453a37409c5ad47a21",
+      "bytes": 5442,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "committed_history",
+          "original_path": "scripts/README.md",
+          "commit": "2a1cb3e17c296f88893b0f38cd88fe401e23869b"
+        },
+        {
+          "kind": "committed_history",
+          "original_path": "scripts/00-目录与映射.md",
+          "commit": "4331be2c0e091be6407c7c675759c6b8d77c08f8"
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/8e2ab04400be/README.md",
+      "original_path": "src/attention_pipeline/README.md",
+      "git_blob": "8e2ab04400bec68c04defef39776baf9366f45fc",
+      "sha256": "d73a0b3bfc32045a49a139e0c44e6ae9b6fb92408f7b488fd90944d58b2d33cb",
+      "bytes": 5472,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "committed_history",
+          "original_path": "src/attention_pipeline/README.md",
+          "commit": "2a1cb3e17c296f88893b0f38cd88fe401e23869b"
+        },
+        {
+          "kind": "committed_history",
+          "original_path": "src/attention_pipeline/00-目录与映射.md",
+          "commit": "71ab9c152d8116fe82bf3d0cb0138c9c05a58a4a"
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/1390c4ab3913/README.md",
+      "original_path": "tests/README.md",
+      "git_blob": "1390c4ab391304d87b13584f0dfe1a74c6f1ca2b",
+      "sha256": "e69cffa026c4fcabb2a775d680d0fc36e6f08668c9c9de50a745769d98784b9b",
+      "bytes": 4180,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "committed_history",
+          "original_path": "tests/README.md",
+          "commit": "2a1cb3e17c296f88893b0f38cd88fe401e23869b"
+        },
+        {
+          "kind": "committed_history",
+          "original_path": "tests/00-目录与映射.md",
+          "commit": "6c519c242e0cc5635a605d9da8dd72c916c6ac41"
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/b500c7119515/项目总览与架构.md",
+      "original_path": "项目总览与架构.md",
+      "git_blob": "b500c7119515bbdea227a92dfde44d1a71e52002",
+      "sha256": "fcb128d451e66bd8d38ac598c0cba5b1353547f4171437e745847021641ae2ab",
+      "bytes": 7133,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "committed_history",
+          "original_path": "项目总览与架构.md",
+          "commit": "2a1cb3e17c296f88893b0f38cd88fe401e23869b"
+        },
+        {
+          "kind": "committed_history",
+          "original_path": "000-项目总览与架构.md",
+          "commit": "d436f013ec21978dde4aef4919623a2a28557d44"
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/489f6e3b1b79/README.md",
+      "original_path": "artifacts/README.md",
+      "git_blob": "489f6e3b1b79dc0be555b87cda869f37896298c9",
+      "sha256": "5aca91a56abb8ac45501c8428aa3f071a023137f402d27665463a954458ad0cc",
+      "bytes": 2753,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "committed_history",
+          "original_path": "artifacts/README.md",
+          "commit": "065bfa506e405166208aaf1bb7b93feb4db3199a"
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/8dd0a3511e14/00-目录与映射.md",
+      "original_path": "docs/工作记录/00-目录与映射.md",
+      "git_blob": "8dd0a3511e148334717cd7dc0f02d34475c684a6",
+      "sha256": "4b03ba657a4ed3869f14e3df1a425921ee8250ff20fad81036330b8db2055dce",
+      "bytes": 14827,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "committed_history",
+          "original_path": "docs/工作记录/00-目录与映射.md",
+          "commit": "61921c3d8006051b36967079c78a9dc7207ca4e7"
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/e52e76419f36/08-23-01-仓库结构与NIR复现入口整理工作记录.md",
+      "original_path": "docs/工作记录/08-23-01-仓库结构与NIR复现入口整理工作记录.md",
+      "git_blob": "e52e76419f362f1eeb00521e34b87e94a748031e",
+      "sha256": "6441ece8c04e87bbbb6da59937e28b70730a8559c08c72eda341e5cf5481fbaa",
+      "bytes": 9299,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "committed_history",
+          "original_path": "docs/工作记录/08-23-01-仓库结构与NIR复现入口整理工作记录.md",
+          "commit": "41fd2a0e81a750c5ec9833c76677fb9d01d5fef7"
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/1adea1a24ddd/SETUP.md",
+      "original_path": "SETUP.md",
+      "git_blob": "1adea1a24ddd15be5350eceb4342137ae651d56b",
+      "sha256": "a650d04607e6ae6dde8bc36308a614a1d0c06ebfd4ddec3f0151e6b178ea3e2b",
+      "bytes": 8693,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "committed_history",
+          "original_path": "SETUP.md",
+          "commit": "95aa111c7aec0239daa3d70d507e1b5783fc7229"
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/70422881c01a/081-NIR路线演化与当前技术选择.md",
+      "original_path": "docs/080-decisions/081-NIR路线演化与当前技术选择.md",
+      "git_blob": "70422881c01afe4ae8edd45cd5b01dce110142ca",
+      "sha256": "eaffbc0e16210c161d47e947b88c79e49c62395eae39a8436cb61846f8e19384",
+      "bytes": 6510,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "committed_history",
+          "original_path": "docs/080-decisions/081-NIR路线演化与当前技术选择.md",
+          "commit": "b5247edf3a948a1cda01cfae9fdc7603c9c07dd6"
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/15d7152c5795/071-NIR正式管线与资产分层.md",
+      "original_path": "docs/070-architecture/071-NIR正式管线与资产分层.md",
+      "git_blob": "15d7152c57950a2809b2766a60a45571a9b52b14",
+      "sha256": "f4da6c421b6dd318ea13df5aa417ea16b41bb83e8dd16c5c239293f1646e7e18",
+      "bytes": 5988,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "committed_history",
+          "original_path": "docs/070-architecture/071-NIR正式管线与资产分层.md",
+          "commit": "a2eab89f7042ae389518a687a6968b14740f03ae"
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/ff1f02cd39fc/063-RITnet瞳孔与虹膜分割方法.md",
+      "original_path": "docs/060-methods/063-RITnet瞳孔与虹膜分割方法.md",
+      "git_blob": "ff1f02cd39fc8de33620265ae6319b2e01b89d28",
+      "sha256": "801fa0f7107e2e20b534796fa6edf17ebab070ff3adbad31a436a693ae60f448",
+      "bytes": 5963,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "committed_history",
+          "original_path": "docs/060-methods/063-RITnet瞳孔与虹膜分割方法.md",
+          "commit": "14334606f8839322a0027d7ed91f7eb2ba205b84"
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/140274b5d3b2/062-Tracking策略.md",
+      "original_path": "docs/060-methods/062-Tracking策略.md",
+      "git_blob": "140274b5d3b25873c7891de8b0e6bbd9556c777a",
+      "sha256": "cc7ec5c1bff6a5d8c2546c0c1b6423b9e5c773dd4504098e975f6b516aaef64b",
+      "bytes": 5360,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "committed_history",
+          "original_path": "docs/060-methods/062-Tracking策略.md",
+          "commit": "cb2f1bf95129972d00c45a651ebb76e0330778dc"
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/81666bf09d10/061-YOLO眼框检测方法.md",
+      "original_path": "docs/060-methods/061-YOLO眼框检测方法.md",
+      "git_blob": "81666bf09d10d5dad83b94d949a93e8e0e9f396f",
+      "sha256": "eae12157a9c554859cb9e7382ce5fad2319e667c1aa361a8d5a8863fc7e418ce",
+      "bytes": 4316,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "committed_history",
+          "original_path": "docs/060-methods/061-YOLO眼框检测方法.md",
+          "commit": "0eed32d7ad44373a4bef67d1c8a2919b899a413d"
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/689d0c33193a/README.md",
+      "original_path": "README.md",
+      "git_blob": "689d0c33193a7a66b11f367376bc16dfd6aed731",
+      "sha256": "ede5182b7ee5d6f479b4a6309c6685176802b65b260d204f40fa3f3f695af44d",
+      "bytes": 4307,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "committed_history",
+          "original_path": "README.md",
+          "commit": "3e79c3f200bad71c284894f74c458b908f35d8a4"
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/4f30029e8a8f/00-目录与映射.md",
+      "original_path": "src/attention_pipeline/nir/00-目录与映射.md",
+      "git_blob": "4f30029e8a8fd3ce14e7ac09173d083a23d610f0",
+      "sha256": "8576526daaac8cfe6340c1d9930a3488b924e41821fe3106b2082f6becbd6f69",
+      "bytes": 4462,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "committed_history",
+          "original_path": "src/attention_pipeline/nir/00-目录与映射.md",
+          "commit": "3ed0b53cda9adba612300fd6fb5c889b16eff711"
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/81d248d1b26b/00-目录与映射.md",
+      "original_path": "src/attention_pipeline/behavior_formal/00-目录与映射.md",
+      "git_blob": "81d248d1b26b95c5ed56817b2a11ce79a7d8223a",
+      "sha256": "64a580df0a9f1163e21e59ccb3dd7a8a0ab4bf3e4cc50b8f3dfaff031246598b",
+      "bytes": 2527,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "committed_history",
+          "original_path": "src/attention_pipeline/behavior_formal/00-目录与映射.md",
+          "commit": "56c123db64f0fc3a31c0cc94feb40792fcc4772f"
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/8404fbee04dc/00-目录与映射.md",
+      "original_path": "src/attention_pipeline/behavior/00-目录与映射.md",
+      "git_blob": "8404fbee04dcc41fa4ab1319a1d6fccd6fee40b7",
+      "sha256": "f572d7e1be14656baf7e614679fd4b4294e03b618600d2bd29ca833bd27f9408",
+      "bytes": 2184,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "committed_history",
+          "original_path": "src/attention_pipeline/behavior/00-目录与映射.md",
+          "commit": "4d8c99860ad3d4efc84470ab2eb96bf3aff222e3"
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/9ede2b0de1e4/README.md",
+      "original_path": "runtime/README.md",
+      "git_blob": "9ede2b0de1e4d92eac31ef7e70c953feeab933ac",
+      "sha256": "26e4d72d9891e42282b7fe566a867625e591d2cc0111c04ce54af162c2b72e0d",
+      "bytes": 4701,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "committed_history",
+          "original_path": "runtime/README.md",
+          "commit": "7040483ad0b79a8464e908b0f416d91f0df245be"
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/53e790183806/README.md",
+      "original_path": "yolotrain/README.md",
+      "git_blob": "53e7901838063ee9f982def14fc8b2c1df6d3438",
+      "sha256": "9719107ae92f49f596b8d82324a34d6992da1752275aa31aa9eeb204afa3bf46",
+      "bytes": 6063,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "committed_history",
+          "original_path": "yolotrain/README.md",
+          "commit": "2db72182a4d306fce31481eb0210770c5f297096"
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/a35bbb77ddb4/00-目录与映射.md",
+      "original_path": "src/attention_pipeline/00-目录与映射.md",
+      "git_blob": "a35bbb77ddb459f58ebe991044ad1342f3225882",
+      "sha256": "06606b028e94900a5f825823b899924af47f204de5c0a11d42769f639bbead09",
+      "bytes": 4511,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "committed_history",
+          "original_path": "src/attention_pipeline/00-目录与映射.md",
+          "commit": "2a18c0315a2311518cb22e55e5e6e604eb2dd02e"
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/502607b2019b/README.md",
+      "original_path": "models/README.md",
+      "git_blob": "502607b2019b104146ac15e7574bb01c89bc2d43",
+      "sha256": "a04d3dac46a21d3a8ab0ed9a387671c22562b504dcea5d7f4f09d0bb82b64a6a",
+      "bytes": 3976,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "committed_history",
+          "original_path": "models/README.md",
+          "commit": "39002d59e2db558311b87e5037d261a7ee67c02c"
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/af87498b7100/README.md",
+      "original_path": "yolotrain/README.md",
+      "git_blob": "af87498b7100cc28482623c1e4cdcd65b8682c31",
+      "sha256": "c98a1c602c4b7dd487212d58d1472bbd71cfaa561798ac43062fe02eae8c8d94",
+      "bytes": 5123,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "committed_history",
+          "original_path": "yolotrain/README.md",
+          "commit": "aa25fc54dbc0160d79004908d2b6402e8134a467"
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/cec2f2adac65/README.md",
+      "original_path": "datasets/nir-eye-dataset-v1/README.md",
+      "git_blob": "cec2f2adac65d1f6f77392b0b1b710baae8cfadd",
+      "sha256": "64462c18cedc37363f4112b411debe8b0c597c5e2ce7d19954ef3f5cb187d949",
+      "bytes": 7374,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "committed_history",
+          "original_path": "datasets/nir-eye-dataset-v1/README.md",
+          "commit": "d54d6f0f879204ae76b90d106e9e3c09a8bb3a90"
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/c26b03c8c9fb/README.md",
+      "original_path": "datasets/nir-eye-dataset-v1/README.md",
+      "git_blob": "c26b03c8c9fb637e8fdbae3cd4971badc4f3c709",
+      "sha256": "a80b174176f5d0180daec6b89430a2dbe0ad6e215a3dfbb441550c8898da4fb7",
+      "bytes": 7293,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "committed_history",
+          "original_path": "datasets/nir-eye-dataset-v1/README.md",
+          "commit": "61cb130e0c46aeadf5fd4a4861204f19e0dd80c5"
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/257889e17251/pyproject.toml",
+      "original_path": "pyproject.toml",
+      "git_blob": "257889e172511baa25acdcbb5c54325f2d77e524",
+      "sha256": "f1d08520dd310dd72be74eceae5b45385c2d18457b8138b6c5c2d968f534ce9a",
+      "bytes": 737,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "committed_history",
+          "original_path": "pyproject.toml",
+          "commit": "8adf7bfd133d9a9a84fc635c9edd2b589d7b6415"
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/104231ffcde0/README.md",
+      "original_path": "artifacts/README.md",
+      "git_blob": "104231ffcde0d95a0c403b31bfa667e2abf40958",
+      "sha256": "ac01fda3826a9bd80482de6a0e313c893e29c2c3677d17979009ed6997bd844c",
+      "bytes": 1224,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "committed_history",
+          "original_path": "artifacts/README.md",
+          "commit": "25b9597f9bcb33e06ccb1203294d38a0bed53d36"
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/92296891548e/00-目录与映射.md",
+      "original_path": "tests/00-目录与映射.md",
+      "git_blob": "92296891548e1317afc4ed08da40238fe655044f",
+      "sha256": "e4a913dd100812f1e71d677361d6c6504bc6f880f6994f12497b4e40ad2147ca",
+      "bytes": 1681,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "committed_history",
+          "original_path": "tests/00-目录与映射.md",
+          "commit": "15dc285656f90208ed2dea1566b5e51db5479272"
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/5ba4ebf0da66/00-目录与映射.md",
+      "original_path": "scripts/00-目录与映射.md",
+      "git_blob": "5ba4ebf0da664cd47c886c15a4b20109322ec047",
+      "sha256": "c3e346a8b59ee8fc04570b7ce687207990a63009f5fec3bead85ce2f6fdbde8b",
+      "bytes": 4375,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "committed_history",
+          "original_path": "scripts/00-目录与映射.md",
+          "commit": "2e2c3adddca0a5393c68d28d87144ff825a4df5f"
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/786dbc684789/formal.yaml",
+      "original_path": "configs/formal.yaml",
+      "git_blob": "786dbc6847892604624490f60069379810a459e0",
+      "sha256": "c13fa9e54cd12314a82bbdcd7fe12e6d88bcaee141cb6b96fc70fa3180514fe2",
+      "bytes": 2742,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "committed_history",
+          "original_path": "configs/formal.yaml",
+          "commit": "0998d09e87bc9ee7ce246907b68264b22272e8e8"
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/ae86124d768e/000-项目总览与架构.md",
+      "original_path": "000-项目总览与架构.md",
+      "git_blob": "ae86124d768e53cbe6bffde47e22f47278597204",
+      "sha256": "ed102fe4519d04194d7053bdd10dda48b615936fc3040952e1c6d10b96277299",
+      "bytes": 5102,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "committed_history",
+          "original_path": "000-项目总览与架构.md",
+          "commit": "5c8847ba6cb8bbf8aa1f502a239ab025d5a87f37"
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/0cc2e9a26828/00-目录与映射.md",
+      "original_path": "docs/00-目录与映射.md",
+      "git_blob": "0cc2e9a26828a89e5d19a31bcbd293314dc9f81f",
+      "sha256": "78ed4827027dace3c7c35afac92fa93f57a6ecac7a2422bfab937e76fbb501ed",
+      "bytes": 2693,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "committed_history",
+          "original_path": "docs/00-目录与映射.md",
+          "commit": "6c639c99fb5cd45a7676c5625bbb0fb7c892f48a"
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/f7ca51462099/README.md",
+      "original_path": "README.md",
+      "git_blob": "f7ca5146209925bcd388198edbafa8ed25dbc265",
+      "sha256": "1d498af05ddd467174997ed20b023ef08bd4b719faa6cc7854b97ca6a28e95f6",
+      "bytes": 2757,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "committed_history",
+          "original_path": "README.md",
+          "commit": "b506d7050ebdfd9b52c520a54c2da94155a7e710"
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/591948e03c3c/00-目录与映射.md",
+      "original_path": "docs/080-decisions/00-目录与映射.md",
+      "git_blob": "591948e03c3c237e45de50153e9ac4a725963170",
+      "sha256": "36327d9d891726b12bae0029ba47073daaae4f7694665f30154893ac915cc69e",
+      "bytes": 379,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "committed_history",
+          "original_path": "docs/080-decisions/00-目录与映射.md",
+          "commit": "1db196497c208a0687be752fe389e35f3de07bd0"
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/5548c37d863e/00-目录与映射.md",
+      "original_path": "docs/070-architecture/00-目录与映射.md",
+      "git_blob": "5548c37d863eb17a0060a1cb1694a3bf89d6b326",
+      "sha256": "4c1323c9e1b5ea43af2afbbdcee6e473c1a7534312ad9301d8667eca7c0b494e",
+      "bytes": 423,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "committed_history",
+          "original_path": "docs/070-architecture/00-目录与映射.md",
+          "commit": "9b6b8d3a751e5084dbe83437a3a923b27712e42e"
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/56dea88cd6ae/00-目录与映射.md",
+      "original_path": "docs/060-methods/00-目录与映射.md",
+      "git_blob": "56dea88cd6ae516844cf9ab029a057051ce2f7b9",
+      "sha256": "0cd0bbdaccff9ffa627ed5fa0607d067c8264e84383d11c4b3fd1fe131ea08df",
+      "bytes": 485,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "committed_history",
+          "original_path": "docs/060-methods/00-目录与映射.md",
+          "commit": "361cd4c6e244fcc18f74a8c57a0fbf9d1d97fa2e"
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/fb87d70b4bc8/00-目录与映射.md",
+      "original_path": "docs/00-目录与映射.md",
+      "git_blob": "fb87d70b4bc815d450687fce984f7c0e1f276171",
+      "sha256": "8e07a3f2705f37fdb1c811cd278ec8b66dc4f6226455b27bbda7b76f10d929b2",
+      "bytes": 2053,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "committed_history",
+          "original_path": "docs/00-目录与映射.md",
+          "commit": "d3205b78ea8611fe1d97fdee6e8809b3acb15a8c"
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/396e1fb0d09e/00-目录与映射.md",
+      "original_path": "docs/00-目录与映射.md",
+      "git_blob": "396e1fb0d09e752fa9bf70c5f73ba1e01b87c076",
+      "sha256": "d6d9317a3942da434840dcdd4f5934936377384848932a7d22e16e985b23bbeb",
+      "bytes": 1963,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "committed_history",
+          "original_path": "docs/00-目录与映射.md",
+          "commit": "d47feb907932b636eb1c6ff9e7bfcc8211368728"
+        }
+      ],
+      "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/fac3ba019753/013-bmo-reporting-figures-plan.md",
+      "original_path": "work/bmo_audit_stage/013-bmo-reporting-figures-plan.md",
+      "git_blob": "fac3ba019753a0bfe0bb23d502c2313a10f2bd80",
+      "sha256": "18c3b06de1b0984775277af1d550e898f65346e7786a8cff87105010b7ee4a27",
+      "bytes": 3032,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "working_tree",
+          "original_path": "work/bmo_audit_stage/013-bmo-reporting-figures-plan.md",
+          "commit": null
+        }
+      ],
+      "usage": "Historical immutable source. Reconstruct original version/input contracts before use; not active pipeline."
+    },
+    {
+      "snapshot": "payloads/7852f4af779e/audit_bmo_figures.py",
+      "original_path": "work/bmo_audit_stage/audit_bmo_figures.py",
+      "git_blob": "7852f4af779e0b16c779347e95609eae605a2c50",
+      "sha256": "fd8c6fec101a8974a893d77e553a36fd2958e5c740281cb0342c6abbddc12b7b",
+      "bytes": 9317,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "working_tree",
+          "original_path": "work/bmo_audit_stage/audit_bmo_figures.py",
+          "commit": null
+        }
+      ],
+      "usage": "Historical immutable source. Reconstruct original version/input contracts before use; not active pipeline."
+    },
+    {
+      "snapshot": "payloads/56d59613f73b/_blas.txt",
+      "original_path": "work/g1_behavior_audit_20260912/_blas.txt",
+      "git_blob": "56d59613f73bd96a4b69924c3d9bd1a850b8e23e",
+      "sha256": "0501cfaef79ac223bbd825827289ff436c75ab7349ef78736e1a66144a6009ee",
+      "bytes": 1443,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "working_tree",
+          "original_path": "work/g1_behavior_audit_20260912/_blas.txt",
+          "commit": null
+        }
+      ],
+      "usage": "Historical immutable source. Reconstruct original version/input contracts before use; not active pipeline."
+    },
+    {
+      "snapshot": "payloads/f51322f437ac/_g1_buffer_effect_stdout.txt",
+      "original_path": "work/g1_behavior_audit_20260912/_g1_buffer_effect_stdout.txt",
+      "git_blob": "f51322f437ac3f3af62c0791a66cab6fff940257",
+      "sha256": "7e27172caa0142516fc2efd86237772648b154a5c08f443a8f57da56eb402adf",
+      "bytes": 8131,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "working_tree",
+          "original_path": "work/g1_behavior_audit_20260912/_g1_buffer_effect_stdout.txt",
+          "commit": null
+        }
+      ],
+      "usage": "Historical immutable source. Reconstruct original version/input contracts before use; not active pipeline."
+    },
+    {
+      "snapshot": "payloads/5031d711f84a/_lapack_stdout.txt",
+      "original_path": "work/g1_behavior_audit_20260912/_lapack_stdout.txt",
+      "git_blob": "5031d711f84a8893c9f1df4d94580b95454f29be",
+      "sha256": "6ea4115874e1c3ed3f206b6cde185ff8db2e58d6c3e24153312acc75f17cd38c",
+      "bytes": 377,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "working_tree",
+          "original_path": "work/g1_behavior_audit_20260912/_lapack_stdout.txt",
+          "commit": null
+        }
+      ],
+      "usage": "Historical immutable source. Reconstruct original version/input contracts before use; not active pipeline."
+    },
+    {
+      "snapshot": "payloads/ca8d83514fe4/_nir_lapack.txt",
+      "original_path": "work/g1_behavior_audit_20260912/_nir_lapack.txt",
+      "git_blob": "ca8d83514fe40d3493ad671056c96d31a50af3eb",
+      "sha256": "6829ce606b4c64e2ad834b31a42fd6f13be40f7d0067e5e8f0a172ad2f6347cf",
+      "bytes": 154,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "working_tree",
+          "original_path": "work/g1_behavior_audit_20260912/_nir_lapack.txt",
+          "commit": null
+        }
+      ],
+      "usage": "Historical immutable source. Reconstruct original version/input contracts before use; not active pipeline."
+    },
+    {
+      "snapshot": "payloads/b7bfd5636f93/_tmp_behavior_g1_probe_check.py",
+      "original_path": "work/g1_behavior_audit_20260912/_tmp_behavior_g1_probe_check.py",
+      "git_blob": "b7bfd5636f933e6bf8ace2eb737e51f6f8ccb6da",
+      "sha256": "333f61fd0d5e6460fdb4fd35863e3c623ecbe9e9767540e5b4ee7f43280503b4",
+      "bytes": 5045,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "working_tree",
+          "original_path": "work/g1_behavior_audit_20260912/_tmp_behavior_g1_probe_check.py",
+          "commit": null
+        }
+      ],
+      "usage": "Historical immutable source. Reconstruct original version/input contracts before use; not active pipeline."
+    },
+    {
+      "snapshot": "payloads/bf2d3b1a80a2/_tmp_g1_aggregate.py",
+      "original_path": "work/g1_behavior_audit_20260912/_tmp_g1_aggregate.py",
+      "git_blob": "bf2d3b1a80a2ab456bf4c0089f548610529e4e78",
+      "sha256": "4eafed74ceca6ed30c608aed3a7021acde419ac8223f4c663e95ae952a3aa090",
+      "bytes": 11565,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "working_tree",
+          "original_path": "work/g1_behavior_audit_20260912/_tmp_g1_aggregate.py",
+          "commit": null
+        }
+      ],
+      "usage": "Historical immutable source. Reconstruct original version/input contracts before use; not active pipeline."
+    },
+    {
+      "snapshot": "payloads/b4e47691b601/_tmp_g1_aggregate2.py",
+      "original_path": "work/g1_behavior_audit_20260912/_tmp_g1_aggregate2.py",
+      "git_blob": "b4e47691b601de55511ee025fa004ea97cb55b07",
+      "sha256": "8e2292a8e04f8c71f203905c80ee4df703f32441f9ef98a7d02485c5c19e8aae",
+      "bytes": 8427,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "working_tree",
+          "original_path": "work/g1_behavior_audit_20260912/_tmp_g1_aggregate2.py",
+          "commit": null
+        }
+      ],
+      "usage": "Historical immutable source. Reconstruct original version/input contracts before use; not active pipeline."
+    },
+    {
+      "snapshot": "payloads/71ffb2cf6816/_tmp_g1_aggregate3.py",
+      "original_path": "work/g1_behavior_audit_20260912/_tmp_g1_aggregate3.py",
+      "git_blob": "71ffb2cf68166150f082e313b7b78819e45da1bc",
+      "sha256": "725a89321b9917eec1c233a7eba8cc4f29c97c2721fa0abab70eb8790a589233",
+      "bytes": 5566,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "working_tree",
+          "original_path": "work/g1_behavior_audit_20260912/_tmp_g1_aggregate3.py",
+          "commit": null
+        }
+      ],
+      "usage": "Historical immutable source. Reconstruct original version/input contracts before use; not active pipeline."
+    },
+    {
+      "snapshot": "payloads/0670bd1bb9a0/_tmp_g1_aggregate4.py",
+      "original_path": "work/g1_behavior_audit_20260912/_tmp_g1_aggregate4.py",
+      "git_blob": "0670bd1bb9a0351582238c28eb5b475475653848",
+      "sha256": "f7dd1ae2d660ef97d6ad4e535a6f30fb119e13ec1911d71ed0df3cba921053b3",
+      "bytes": 3129,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "working_tree",
+          "original_path": "work/g1_behavior_audit_20260912/_tmp_g1_aggregate4.py",
+          "commit": null
+        }
+      ],
+      "usage": "Historical immutable source. Reconstruct original version/input contracts before use; not active pipeline."
+    },
+    {
+      "snapshot": "payloads/ce1882e9a697/_tmp_g1_aggregate5.py",
+      "original_path": "work/g1_behavior_audit_20260912/_tmp_g1_aggregate5.py",
+      "git_blob": "ce1882e9a6972bc04e910e9e9821b372ca044eaf",
+      "sha256": "7abb1d26700cf305f852b2c542dd42f62550fdfd0f596b47a2c76258d0128b0c",
+      "bytes": 1850,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "working_tree",
+          "original_path": "work/g1_behavior_audit_20260912/_tmp_g1_aggregate5.py",
+          "commit": null
+        }
+      ],
+      "usage": "Historical immutable source. Reconstruct original version/input contracts before use; not active pipeline."
+    },
+    {
+      "snapshot": "payloads/d477cf1de5f5/_tmp_g1_aggregate7.py",
+      "original_path": "work/g1_behavior_audit_20260912/_tmp_g1_aggregate7.py",
+      "git_blob": "d477cf1de5f573b07fc4a02f81f6471f8ab038eb",
+      "sha256": "a99012249148910c7936bacd9aeccb78035b4c3740fef792e0477d6bcf1ad6dd",
+      "bytes": 3931,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "working_tree",
+          "original_path": "work/g1_behavior_audit_20260912/_tmp_g1_aggregate7.py",
+          "commit": null
+        }
+      ],
+      "usage": "Historical immutable source. Reconstruct original version/input contracts before use; not active pipeline."
+    },
+    {
+      "snapshot": "payloads/4a7573803eb2/_tmp_g1_buffer_effect.py",
+      "original_path": "work/g1_behavior_audit_20260912/_tmp_g1_buffer_effect.py",
+      "git_blob": "4a7573803eb2879a84d63acc202fac65ca321415",
+      "sha256": "1e736e6f2e97720b49523b6f1a7d6781b9f9bb835f8f50360aac1c02471763bb",
+      "bytes": 4121,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "working_tree",
+          "original_path": "work/g1_behavior_audit_20260912/_tmp_g1_buffer_effect.py",
+          "commit": null
+        }
+      ],
+      "usage": "Historical immutable source. Reconstruct original version/input contracts before use; not active pipeline."
+    },
+    {
+      "snapshot": "payloads/a66f734a070c/_tmp_g1_verify.py",
+      "original_path": "work/g1_behavior_audit_20260912/_tmp_g1_verify.py",
+      "git_blob": "a66f734a070cc7602876405dd9b67db00b70d94b",
+      "sha256": "97789697b34c3863dbaec3ecdfb5b74c9ca1c10dc4499d1f3b87122410eb4ca6",
+      "bytes": 3090,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "working_tree",
+          "original_path": "work/g1_behavior_audit_20260912/_tmp_g1_verify.py",
+          "commit": null
+        }
+      ],
+      "usage": "Historical immutable source. Reconstruct original version/input contracts before use; not active pipeline."
+    },
+    {
+      "snapshot": "payloads/5fcd9d7d6a8b/pr64_body_backup_20260913.md",
+      "original_path": "work/pr64_body_backup_20260913.md",
+      "git_blob": "5fcd9d7d6a8b67e7d8055d0381a1b3b92f8c3dbc",
+      "sha256": "72c453275aaac57a18d938db599c7d3c4c1feb150148d5876192ca1614504fde",
+      "bytes": 1389,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "working_tree",
+          "original_path": "work/pr64_body_backup_20260913.md",
+          "commit": null
+        }
+      ],
+      "usage": "Historical immutable source. Reconstruct original version/input contracts before use; not active pipeline."
+    },
+    {
+      "snapshot": "payloads/b89b97758690/pr64_body_corrected_20260913.md",
+      "original_path": "work/pr64_body_corrected_20260913.md",
+      "git_blob": "b89b977586907c094374d2c0fb0a4fa2be014905",
+      "sha256": "82f473248a5f0dde7e6079a461c9d5dec96ffad511b2a3b1d1bdc8c1b2ee83df",
+      "bytes": 2871,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "working_tree",
+          "original_path": "work/pr64_body_corrected_20260913.md",
+          "commit": null
+        }
+      ],
+      "usage": "Historical immutable source. Reconstruct original version/input contracts before use; not active pipeline."
+    }
+  ],
+  "completed_at_date": "2026-10-13",
+  "current_entry_branch": "codex/formal-analysis-v2-portable",
+  "recovery_source_commit": "f01c5f6fa74368435bab220e7ccf035b731e89d2",
+  "integration_date": "2026-10-13"
+}
