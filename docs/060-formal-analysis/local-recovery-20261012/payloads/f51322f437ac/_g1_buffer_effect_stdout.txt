@@ -1,0 +1,90 @@
+rows=155520
+
+===== bin_width=1.0s =====
+track=nir_qc_only buffer=none: paired_n=5812 level_delta=n=5812 min=-36.02 p25=-0.003131 M=0.0005545 p75=0.02093 p95=0.785 max=33.62
+    sd_delta=n=5786 min=-127.9 p25=-0.7314 M=-0.01261 p75=-0.002883 p95=0.02141 max=50.25
+    bin_delta=n=5812 min=-29 p25=0 M=0 p75=0 p95=0 max=0
+track=rgb_blink_only buffer=pre100_post300: paired_n=6463 level_delta=n=6463 min=-2.395 p25=-9.017e-06 M=0 p75=4.958e-05 p95=0.07736 max=15.83
+    sd_delta=n=6463 min=-15.58 p25=-0.009295 M=-0.0004342 p75=0 p95=0 max=10.27
+    bin_delta=n=6463 min=-6 p25=0 M=0 p75=0 p95=0 max=0
+track=rgb_blink_only buffer=pre200_post200: paired_n=6463 level_delta=n=6463 min=-1.494 p25=0 M=0 p75=0.0001794 p95=0.09546 max=15.92
+    sd_delta=n=6463 min=-9.625 p25=-0.01004 M=-0.0005215 p75=0 p95=0 max=10.34
+    bin_delta=n=6463 min=-8 p25=0 M=0 p75=0 p95=0 max=0
+track=rgb_blink_only buffer=pre50_post50: paired_n=6463 level_delta=n=6463 min=-0.3775 p25=0 M=0 p75=0.0003048 p95=0.04706 max=14.23
+    sd_delta=n=6463 min=-7.218 p25=-0.005683 M=-0.000189 p75=0 p95=0 max=3.421
+    bin_delta=n=6463 min=-2 p25=0 M=0 p75=0 p95=0 max=0
+track=rgb_plus_nir_qc buffer=pre100_post300: paired_n=5805 level_delta=n=5805 min=-36.02 p25=-0.00341 M=0.0003887 p75=0.02153 p95=0.8101 max=33.62
+    sd_delta=n=5775 min=-127.9 p25=-0.8696 M=-0.01493 p75=-0.004061 p95=0.01674 max=52.67
+    bin_delta=n=5805 min=-29 p25=0 M=0 p75=0 p95=0 max=0
+track=rgb_plus_nir_qc buffer=pre200_post200: paired_n=5805 level_delta=n=5805 min=-36.02 p25=-0.00314 M=0.0004558 p75=0.02183 p95=0.8136 max=33.62
+    sd_delta=n=5769 min=-127.9 p25=-0.8681 M=-0.01488 p75=-0.004 p95=0.01677 max=52.14
+    bin_delta=n=5805 min=-29 p25=0 M=0 p75=0 p95=0 max=0
+track=rgb_plus_nir_qc buffer=pre50_post50: paired_n=5809 level_delta=n=5809 min=-36.02 p25=-0.00305 M=0.0006011 p75=0.02175 p95=0.7934 max=33.62
+    sd_delta=n=5783 min=-127.9 p25=-0.8301 M=-0.01408 p75=-0.003679 p95=0.01725 max=50.39
+    bin_delta=n=5809 min=-29 p25=0 M=0 p75=0 p95=0 max=0
+
+===== bin_width=2.0s =====
+track=nir_qc_only buffer=none: paired_n=5812 level_delta=n=5812 min=-36.02 p25=-0.003131 M=0.0005545 p75=0.02093 p95=0.785 max=33.62
+    sd_delta=n=5786 min=-127.9 p25=-0.7314 M=-0.01261 p75=-0.002883 p95=0.02141 max=50.25
+    bin_delta=n=5812 min=-14 p25=0 M=0 p75=0 p95=0 max=0
+track=rgb_blink_only buffer=pre100_post300: paired_n=6463 level_delta=n=6463 min=-2.395 p25=-9.017e-06 M=0 p75=4.958e-05 p95=0.07736 max=15.83
+    sd_delta=n=6463 min=-15.58 p25=-0.009295 M=-0.0004342 p75=0 p95=0 max=10.27
+    bin_delta=n=6463 min=-3 p25=0 M=0 p75=0 p95=0 max=0
+track=rgb_blink_only buffer=pre200_post200: paired_n=6463 level_delta=n=6463 min=-1.494 p25=0 M=0 p75=0.0001794 p95=0.09546 max=15.92
+    sd_delta=n=6463 min=-9.625 p25=-0.01004 M=-0.0005215 p75=0 p95=0 max=10.34
+    bin_delta=n=6463 min=-4 p25=0 M=0 p75=0 p95=0 max=0
+track=rgb_blink_only buffer=pre50_post50: paired_n=6463 level_delta=n=6463 min=-0.3775 p25=0 M=0 p75=0.0003048 p95=0.04706 max=14.23
+    sd_delta=n=6463 min=-7.218 p25=-0.005683 M=-0.000189 p75=0 p95=0 max=3.421
+    bin_delta=n=6463 min=-1 p25=0 M=0 p75=0 p95=0 max=0
+track=rgb_plus_nir_qc buffer=pre100_post300: paired_n=5805 level_delta=n=5805 min=-36.02 p25=-0.00341 M=0.0003887 p75=0.02153 p95=0.8101 max=33.62
+    sd_delta=n=5775 min=-127.9 p25=-0.8696 M=-0.01493 p75=-0.004061 p95=0.01674 max=52.67
+    bin_delta=n=5805 min=-14 p25=0 M=0 p75=0 p95=0 max=0
+track=rgb_plus_nir_qc buffer=pre200_post200: paired_n=5805 level_delta=n=5805 min=-36.02 p25=-0.00314 M=0.0004558 p75=0.02183 p95=0.8136 max=33.62
+    sd_delta=n=5769 min=-127.9 p25=-0.8681 M=-0.01488 p75=-0.004 p95=0.01677 max=52.14
+    bin_delta=n=5805 min=-14 p25=0 M=0 p75=0 p95=0 max=0
+track=rgb_plus_nir_qc buffer=pre50_post50: paired_n=5809 level_delta=n=5809 min=-36.02 p25=-0.00305 M=0.0006011 p75=0.02175 p95=0.7934 max=33.62
+    sd_delta=n=5783 min=-127.9 p25=-0.8301 M=-0.01408 p75=-0.003679 p95=0.01725 max=50.39
+    bin_delta=n=5809 min=-14 p25=0 M=0 p75=0 p95=0 max=0
+
+===== bin_width=5.0s =====
+track=nir_qc_only buffer=none: paired_n=5812 level_delta=n=5812 min=-36.02 p25=-0.003131 M=0.0005545 p75=0.02093 p95=0.785 max=33.62
+    sd_delta=n=5786 min=-127.9 p25=-0.7314 M=-0.01261 p75=-0.002883 p95=0.02141 max=50.25
+    bin_delta=n=5812 min=-5 p25=0 M=0 p75=0 p95=0 max=0
+track=rgb_blink_only buffer=pre100_post300: paired_n=6463 level_delta=n=6463 min=-2.395 p25=-9.017e-06 M=0 p75=4.958e-05 p95=0.07736 max=15.83
+    sd_delta=n=6463 min=-15.58 p25=-0.009295 M=-0.0004342 p75=0 p95=0 max=10.27
+    bin_delta=n=6463 min=-1 p25=0 M=0 p75=0 p95=0 max=0
+track=rgb_blink_only buffer=pre200_post200: paired_n=6463 level_delta=n=6463 min=-1.494 p25=0 M=0 p75=0.0001794 p95=0.09546 max=15.92
+    sd_delta=n=6463 min=-9.625 p25=-0.01004 M=-0.0005215 p75=0 p95=0 max=10.34
+    bin_delta=n=6463 min=-1 p25=0 M=0 p75=0 p95=0 max=0
+track=rgb_blink_only buffer=pre50_post50: paired_n=6463 level_delta=n=6463 min=-0.3775 p25=0 M=0 p75=0.0003048 p95=0.04706 max=14.23
+    sd_delta=n=6463 min=-7.218 p25=-0.005683 M=-0.000189 p75=0 p95=0 max=3.421
+    bin_delta=n=6463 min=-1 p25=0 M=0 p75=0 p95=0 max=0
+track=rgb_plus_nir_qc buffer=pre100_post300: paired_n=5805 level_delta=n=5805 min=-36.02 p25=-0.00341 M=0.0003887 p75=0.02153 p95=0.8101 max=33.62
+    sd_delta=n=5775 min=-127.9 p25=-0.8696 M=-0.01493 p75=-0.004061 p95=0.01674 max=52.67
+    bin_delta=n=5805 min=-5 p25=0 M=0 p75=0 p95=0 max=0
+track=rgb_plus_nir_qc buffer=pre200_post200: paired_n=5805 level_delta=n=5805 min=-36.02 p25=-0.00314 M=0.0004558 p75=0.02183 p95=0.8136 max=33.62
+    sd_delta=n=5769 min=-127.9 p25=-0.8681 M=-0.01488 p75=-0.004 p95=0.01677 max=52.14
+    bin_delta=n=5805 min=-5 p25=0 M=0 p75=0 p95=0 max=0
+track=rgb_plus_nir_qc buffer=pre50_post50: paired_n=5809 level_delta=n=5809 min=-36.02 p25=-0.00305 M=0.0006011 p75=0.02175 p95=0.7934 max=33.62
+    sd_delta=n=5783 min=-127.9 p25=-0.8301 M=-0.01408 p75=-0.003679 p95=0.01725 max=50.39
+    bin_delta=n=5809 min=-5 p25=0 M=0 p75=0 p95=0 max=0
+
+===== 探针级有效比例（含 buffer 维度，按场次聚合均值） =====
+track=nir_qc_only buffer=none: session_mean_valid_fraction n=108 min=0.01886 p25=0.699 M=0.8427 p75=0.9049 p95=0.9639 max=0.9823
+track=original_nir buffer=none: session_mean_valid_fraction n=108 min=0.8924 p25=0.9802 M=0.99 p75=0.9969 p95=0.9993 max=0.9999
+track=rgb_blink_only buffer=pre100_post300: session_mean_valid_fraction n=108 min=0.7139 p25=0.9116 M=0.9621 p75=0.9865 p95=0.9985 max=0.9999
+track=rgb_blink_only buffer=pre200_post200: session_mean_valid_fraction n=108 min=0.7122 p25=0.9127 M=0.962 p75=0.9865 p95=0.9985 max=0.9999
+track=rgb_blink_only buffer=pre50_post50: session_mean_valid_fraction n=108 min=0.8321 p25=0.9603 M=0.9808 p75=0.9914 p95=0.9986 max=0.9999
+track=rgb_plus_nir_qc buffer=pre100_post300: session_mean_valid_fraction n=108 min=0.01778 p25=0.6301 M=0.809 p75=0.8887 p95=0.9546 max=0.9823
+track=rgb_plus_nir_qc buffer=pre200_post200: session_mean_valid_fraction n=108 min=0.01778 p25=0.6306 M=0.8154 p75=0.8901 p95=0.9549 max=0.9823
+track=rgb_plus_nir_qc buffer=pre50_post50: session_mean_valid_fraction n=108 min=0.01847 p25=0.6959 M=0.8402 p75=0.9036 p95=0.9637 max=0.9823
+
+===== level_median 缺失（不可估计）比例 =====
+track=nir_qc_only buffer=none: level_missing_fraction=0.1031 sd_missing_fraction=0.1071
+track=original_nir buffer=none: level_missing_fraction=0.0025 sd_missing_fraction=0.0026
+track=rgb_blink_only buffer=pre100_post300: level_missing_fraction=0.0026 sd_missing_fraction=0.0026
+track=rgb_blink_only buffer=pre200_post200: level_missing_fraction=0.0026 sd_missing_fraction=0.0026
+track=rgb_blink_only buffer=pre50_post50: level_missing_fraction=0.0026 sd_missing_fraction=0.0026
+track=rgb_plus_nir_qc buffer=pre100_post300: level_missing_fraction=0.1042 sd_missing_fraction=0.1088
+track=rgb_plus_nir_qc buffer=pre200_post200: level_missing_fraction=0.1042 sd_missing_fraction=0.1097
+track=rgb_plus_nir_qc buffer=pre50_post50: level_missing_fraction=0.1035 sd_missing_fraction=0.1076

@@ -1,5 +1,5 @@
 {
-  "files": 175,
+  "files": 192,
   "all_byte_identical": true,
   "checks": [
     {
@@ -874,6 +874,91 @@
     },
     {
       "file": "payloads/396e1fb0d09e/00-目录与映射.md",
+      "byte_identical": true,
+      "syntax": "not_applicable"
+    },
+    {
+      "file": "payloads/fac3ba019753/013-bmo-reporting-figures-plan.md",
+      "byte_identical": true,
+      "syntax": "not_applicable"
+    },
+    {
+      "file": "payloads/7852f4af779e/audit_bmo_figures.py",
+      "byte_identical": true,
+      "syntax": "python_ast_pass"
+    },
+    {
+      "file": "payloads/56d59613f73b/_blas.txt",
+      "byte_identical": true,
+      "syntax": "not_applicable"
+    },
+    {
+      "file": "payloads/f51322f437ac/_g1_buffer_effect_stdout.txt",
+      "byte_identical": true,
+      "syntax": "not_applicable"
+    },
+    {
+      "file": "payloads/5031d711f84a/_lapack_stdout.txt",
+      "byte_identical": true,
+      "syntax": "not_applicable"
+    },
+    {
+      "file": "payloads/ca8d83514fe4/_nir_lapack.txt",
+      "byte_identical": true,
+      "syntax": "not_applicable"
+    },
+    {
+      "file": "payloads/b7bfd5636f93/_tmp_behavior_g1_probe_check.py",
+      "byte_identical": true,
+      "syntax": "python_ast_pass"
+    },
+    {
+      "file": "payloads/bf2d3b1a80a2/_tmp_g1_aggregate.py",
+      "byte_identical": true,
+      "syntax": "python_ast_pass"
+    },
+    {
+      "file": "payloads/b4e47691b601/_tmp_g1_aggregate2.py",
+      "byte_identical": true,
+      "syntax": "python_ast_pass"
+    },
+    {
+      "file": "payloads/71ffb2cf6816/_tmp_g1_aggregate3.py",
+      "byte_identical": true,
+      "syntax": "python_ast_pass"
+    },
+    {
+      "file": "payloads/0670bd1bb9a0/_tmp_g1_aggregate4.py",
+      "byte_identical": true,
+      "syntax": "python_ast_pass"
+    },
+    {
+      "file": "payloads/ce1882e9a697/_tmp_g1_aggregate5.py",
+      "byte_identical": true,
+      "syntax": "python_ast_pass"
+    },
+    {
+      "file": "payloads/d477cf1de5f5/_tmp_g1_aggregate7.py",
+      "byte_identical": true,
+      "syntax": "python_ast_pass"
+    },
+    {
+      "file": "payloads/4a7573803eb2/_tmp_g1_buffer_effect.py",
+      "byte_identical": true,
+      "syntax": "python_ast_pass"
+    },
+    {
+      "file": "payloads/a66f734a070c/_tmp_g1_verify.py",
+      "byte_identical": true,
+      "syntax": "python_ast_pass"
+    },
+    {
+      "file": "payloads/5fcd9d7d6a8b/pr64_body_backup_20260913.md",
+      "byte_identical": true,
+      "syntax": "not_applicable"
+    },
+    {
+      "file": "payloads/b89b97758690/pr64_body_corrected_20260913.md",
       "byte_identical": true,
       "syntax": "not_applicable"
     }

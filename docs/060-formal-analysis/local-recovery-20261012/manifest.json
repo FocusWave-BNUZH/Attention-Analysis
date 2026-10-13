@@ -2889,6 +2889,279 @@
         }
       ],
       "usage": "Use original-path and recorded version/input contracts to reconstruct; do not execute the isolated snapshot as current pipeline."
+    },
+    {
+      "snapshot": "payloads/fac3ba019753/013-bmo-reporting-figures-plan.md",
+      "original_path": "work/bmo_audit_stage/013-bmo-reporting-figures-plan.md",
+      "git_blob": "fac3ba019753a0bfe0bb23d502c2313a10f2bd80",
+      "sha256": "18c3b06de1b0984775277af1d550e898f65346e7786a8cff87105010b7ee4a27",
+      "bytes": 3032,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "working_tree",
+          "original_path": "work/bmo_audit_stage/013-bmo-reporting-figures-plan.md",
+          "commit": null
+        }
+      ],
+      "usage": "Historical immutable source. Reconstruct original version/input contracts before use; not active pipeline."
+    },
+    {
+      "snapshot": "payloads/7852f4af779e/audit_bmo_figures.py",
+      "original_path": "work/bmo_audit_stage/audit_bmo_figures.py",
+      "git_blob": "7852f4af779e0b16c779347e95609eae605a2c50",
+      "sha256": "fd8c6fec101a8974a893d77e553a36fd2958e5c740281cb0342c6abbddc12b7b",
+      "bytes": 9317,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "working_tree",
+          "original_path": "work/bmo_audit_stage/audit_bmo_figures.py",
+          "commit": null
+        }
+      ],
+      "usage": "Historical immutable source. Reconstruct original version/input contracts before use; not active pipeline."
+    },
+    {
+      "snapshot": "payloads/56d59613f73b/_blas.txt",
+      "original_path": "work/g1_behavior_audit_20260912/_blas.txt",
+      "git_blob": "56d59613f73bd96a4b69924c3d9bd1a850b8e23e",
+      "sha256": "0501cfaef79ac223bbd825827289ff436c75ab7349ef78736e1a66144a6009ee",
+      "bytes": 1443,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "working_tree",
+          "original_path": "work/g1_behavior_audit_20260912/_blas.txt",
+          "commit": null
+        }
+      ],
+      "usage": "Historical immutable source. Reconstruct original version/input contracts before use; not active pipeline."
+    },
+    {
+      "snapshot": "payloads/f51322f437ac/_g1_buffer_effect_stdout.txt",
+      "original_path": "work/g1_behavior_audit_20260912/_g1_buffer_effect_stdout.txt",
+      "git_blob": "f51322f437ac3f3af62c0791a66cab6fff940257",
+      "sha256": "7e27172caa0142516fc2efd86237772648b154a5c08f443a8f57da56eb402adf",
+      "bytes": 8131,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "working_tree",
+          "original_path": "work/g1_behavior_audit_20260912/_g1_buffer_effect_stdout.txt",
+          "commit": null
+        }
+      ],
+      "usage": "Historical immutable source. Reconstruct original version/input contracts before use; not active pipeline."
+    },
+    {
+      "snapshot": "payloads/5031d711f84a/_lapack_stdout.txt",
+      "original_path": "work/g1_behavior_audit_20260912/_lapack_stdout.txt",
+      "git_blob": "5031d711f84a8893c9f1df4d94580b95454f29be",
+      "sha256": "6ea4115874e1c3ed3f206b6cde185ff8db2e58d6c3e24153312acc75f17cd38c",
+      "bytes": 377,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "working_tree",
+          "original_path": "work/g1_behavior_audit_20260912/_lapack_stdout.txt",
+          "commit": null
+        }
+      ],
+      "usage": "Historical immutable source. Reconstruct original version/input contracts before use; not active pipeline."
+    },
+    {
+      "snapshot": "payloads/ca8d83514fe4/_nir_lapack.txt",
+      "original_path": "work/g1_behavior_audit_20260912/_nir_lapack.txt",
+      "git_blob": "ca8d83514fe40d3493ad671056c96d31a50af3eb",
+      "sha256": "6829ce606b4c64e2ad834b31a42fd6f13be40f7d0067e5e8f0a172ad2f6347cf",
+      "bytes": 154,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "working_tree",
+          "original_path": "work/g1_behavior_audit_20260912/_nir_lapack.txt",
+          "commit": null
+        }
+      ],
+      "usage": "Historical immutable source. Reconstruct original version/input contracts before use; not active pipeline."
+    },
+    {
+      "snapshot": "payloads/b7bfd5636f93/_tmp_behavior_g1_probe_check.py",
+      "original_path": "work/g1_behavior_audit_20260912/_tmp_behavior_g1_probe_check.py",
+      "git_blob": "b7bfd5636f933e6bf8ace2eb737e51f6f8ccb6da",
+      "sha256": "333f61fd0d5e6460fdb4fd35863e3c623ecbe9e9767540e5b4ee7f43280503b4",
+      "bytes": 5045,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "working_tree",
+          "original_path": "work/g1_behavior_audit_20260912/_tmp_behavior_g1_probe_check.py",
+          "commit": null
+        }
+      ],
+      "usage": "Historical immutable source. Reconstruct original version/input contracts before use; not active pipeline."
+    },
+    {
+      "snapshot": "payloads/bf2d3b1a80a2/_tmp_g1_aggregate.py",
+      "original_path": "work/g1_behavior_audit_20260912/_tmp_g1_aggregate.py",
+      "git_blob": "bf2d3b1a80a2ab456bf4c0089f548610529e4e78",
+      "sha256": "4eafed74ceca6ed30c608aed3a7021acde419ac8223f4c663e95ae952a3aa090",
+      "bytes": 11565,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "working_tree",
+          "original_path": "work/g1_behavior_audit_20260912/_tmp_g1_aggregate.py",
+          "commit": null
+        }
+      ],
+      "usage": "Historical immutable source. Reconstruct original version/input contracts before use; not active pipeline."
+    },
+    {
+      "snapshot": "payloads/b4e47691b601/_tmp_g1_aggregate2.py",
+      "original_path": "work/g1_behavior_audit_20260912/_tmp_g1_aggregate2.py",
+      "git_blob": "b4e47691b601de55511ee025fa004ea97cb55b07",
+      "sha256": "8e2292a8e04f8c71f203905c80ee4df703f32441f9ef98a7d02485c5c19e8aae",
+      "bytes": 8427,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "working_tree",
+          "original_path": "work/g1_behavior_audit_20260912/_tmp_g1_aggregate2.py",
+          "commit": null
+        }
+      ],
+      "usage": "Historical immutable source. Reconstruct original version/input contracts before use; not active pipeline."
+    },
+    {
+      "snapshot": "payloads/71ffb2cf6816/_tmp_g1_aggregate3.py",
+      "original_path": "work/g1_behavior_audit_20260912/_tmp_g1_aggregate3.py",
+      "git_blob": "71ffb2cf68166150f082e313b7b78819e45da1bc",
+      "sha256": "725a89321b9917eec1c233a7eba8cc4f29c97c2721fa0abab70eb8790a589233",
+      "bytes": 5566,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "working_tree",
+          "original_path": "work/g1_behavior_audit_20260912/_tmp_g1_aggregate3.py",
+          "commit": null
+        }
+      ],
+      "usage": "Historical immutable source. Reconstruct original version/input contracts before use; not active pipeline."
+    },
+    {
+      "snapshot": "payloads/0670bd1bb9a0/_tmp_g1_aggregate4.py",
+      "original_path": "work/g1_behavior_audit_20260912/_tmp_g1_aggregate4.py",
+      "git_blob": "0670bd1bb9a0351582238c28eb5b475475653848",
+      "sha256": "f7dd1ae2d660ef97d6ad4e535a6f30fb119e13ec1911d71ed0df3cba921053b3",
+      "bytes": 3129,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "working_tree",
+          "original_path": "work/g1_behavior_audit_20260912/_tmp_g1_aggregate4.py",
+          "commit": null
+        }
+      ],
+      "usage": "Historical immutable source. Reconstruct original version/input contracts before use; not active pipeline."
+    },
+    {
+      "snapshot": "payloads/ce1882e9a697/_tmp_g1_aggregate5.py",
+      "original_path": "work/g1_behavior_audit_20260912/_tmp_g1_aggregate5.py",
+      "git_blob": "ce1882e9a6972bc04e910e9e9821b372ca044eaf",
+      "sha256": "7abb1d26700cf305f852b2c542dd42f62550fdfd0f596b47a2c76258d0128b0c",
+      "bytes": 1850,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "working_tree",
+          "original_path": "work/g1_behavior_audit_20260912/_tmp_g1_aggregate5.py",
+          "commit": null
+        }
+      ],
+      "usage": "Historical immutable source. Reconstruct original version/input contracts before use; not active pipeline."
+    },
+    {
+      "snapshot": "payloads/d477cf1de5f5/_tmp_g1_aggregate7.py",
+      "original_path": "work/g1_behavior_audit_20260912/_tmp_g1_aggregate7.py",
+      "git_blob": "d477cf1de5f573b07fc4a02f81f6471f8ab038eb",
+      "sha256": "a99012249148910c7936bacd9aeccb78035b4c3740fef792e0477d6bcf1ad6dd",
+      "bytes": 3931,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "working_tree",
+          "original_path": "work/g1_behavior_audit_20260912/_tmp_g1_aggregate7.py",
+          "commit": null
+        }
+      ],
+      "usage": "Historical immutable source. Reconstruct original version/input contracts before use; not active pipeline."
+    },
+    {
+      "snapshot": "payloads/4a7573803eb2/_tmp_g1_buffer_effect.py",
+      "original_path": "work/g1_behavior_audit_20260912/_tmp_g1_buffer_effect.py",
+      "git_blob": "4a7573803eb2879a84d63acc202fac65ca321415",
+      "sha256": "1e736e6f2e97720b49523b6f1a7d6781b9f9bb835f8f50360aac1c02471763bb",
+      "bytes": 4121,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "working_tree",
+          "original_path": "work/g1_behavior_audit_20260912/_tmp_g1_buffer_effect.py",
+          "commit": null
+        }
+      ],
+      "usage": "Historical immutable source. Reconstruct original version/input contracts before use; not active pipeline."
+    },
+    {
+      "snapshot": "payloads/a66f734a070c/_tmp_g1_verify.py",
+      "original_path": "work/g1_behavior_audit_20260912/_tmp_g1_verify.py",
+      "git_blob": "a66f734a070cc7602876405dd9b67db00b70d94b",
+      "sha256": "97789697b34c3863dbaec3ecdfb5b74c9ca1c10dc4499d1f3b87122410eb4ca6",
+      "bytes": 3090,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "working_tree",
+          "original_path": "work/g1_behavior_audit_20260912/_tmp_g1_verify.py",
+          "commit": null
+        }
+      ],
+      "usage": "Historical immutable source. Reconstruct original version/input contracts before use; not active pipeline."
+    },
+    {
+      "snapshot": "payloads/5fcd9d7d6a8b/pr64_body_backup_20260913.md",
+      "original_path": "work/pr64_body_backup_20260913.md",
+      "git_blob": "5fcd9d7d6a8b67e7d8055d0381a1b3b92f8c3dbc",
+      "sha256": "72c453275aaac57a18d938db599c7d3c4c1feb150148d5876192ca1614504fde",
+      "bytes": 1389,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "working_tree",
+          "original_path": "work/pr64_body_backup_20260913.md",
+          "commit": null
+        }
+      ],
+      "usage": "Historical immutable source. Reconstruct original version/input contracts before use; not active pipeline."
+    },
+    {
+      "snapshot": "payloads/b89b97758690/pr64_body_corrected_20260913.md",
+      "original_path": "work/pr64_body_corrected_20260913.md",
+      "git_blob": "b89b977586907c094374d2c0fb0a4fa2be014905",
+      "sha256": "82f473248a5f0dde7e6079a461c9d5dec96ffad511b2a3b1d1bdc8c1b2ee83df",
+      "bytes": 2871,
+      "classification": "historical_source_or_provenance_not_current_pipeline",
+      "sources": [
+        {
+          "kind": "working_tree",
+          "original_path": "work/pr64_body_corrected_20260913.md",
+          "commit": null
+        }
+      ],
+      "usage": "Historical immutable source. Reconstruct original version/input contracts before use; not active pipeline."
     }
-  ]
+  ],
+  "completed_at_date": "2026-10-13"
 }
