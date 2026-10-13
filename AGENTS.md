@@ -1,3 +1,11 @@
+# 2026-10-13 当前分支导航修正
+
+当前分支是 `nvidia-cuda-v8`，NVIDIA近红外第8版最终生产层；不是AMD工作分支。仓库当前默认分支是 `codex/formal-analysis-v2-portable`，当前方法/结果证据入口为 `FocusWave-Formal-Analysis@main`。本分支执行读取当前根README、`runtime/nir-formal/README.md`、`INSTALL.md`、实际配置与代码。
+
+以下8月27日状态条目保留旧生产基线上下文；其中旧默认分支、AMD后端与全模态阶段说明不作为本分支当前导航。其数据保护、协议核验、历史保留和中央治理要求继续有效。这里只纠正来源定位，不改变测量或运行契约。
+
+---
+
 # AGENTS.md｜Attention-Analysis 仓库规则
 
 > 2026-08-27（Asia/Shanghai）｜仓库已改名为 Attention-Analysis；默认 NVIDIA 维护分支为 `nvidia-cuda`，AMD/DirectML 正式运行线使用 `amd-DirectML`。
