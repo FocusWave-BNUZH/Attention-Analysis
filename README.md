@@ -657,3 +657,7 @@ conda activate "D:\CondaEnvs\attention-face-directml"
 - **现在不要启动 AMD 44 人 RGB full cohort。**
 - `rgb-dev` / `rgb-nvidia-cuda` 仍作为开发期保险分支，长期维护目标仍是 `amd-DirectML` 与 `nvidia-cuda`。
 - 日期型工作记录和历史 provenance 不追溯改写。
+
+## 2026-10-14 分支与历史版本入口
+
+[当前活动分支、完整历史版本及执行证据](https://github.com/kyandi233-dev/Attention-Analysis/blob/codex/formal-analysis-v2-portable/docs/060-formal-analysis/020-分支收敛与环境剥离执行_20261014.md)。旧版本按精确固定版本恢复；本分支执行代码、模型和配置不变。
