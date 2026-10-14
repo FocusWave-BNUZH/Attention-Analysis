@@ -22,3 +22,7 @@ NVIDIA并行计算平台（Compute Unified Device Architecture [CUDA]）执行�
 ## 本次变更边界
 
 本次只纠正根入口及分支导航事实，旧根说明保留于本分支提交历史。执行代码、模型、配置、参数、数据、恢复数据库和输出不变；未重跑研究数据。
+
+## 2026-10-14 分支与历史版本入口
+
+[当前活动分支、完整历史版本及执行证据](https://github.com/kyandi233-dev/Attention-Analysis/blob/codex/formal-analysis-v2-portable/docs/060-formal-analysis/020-分支收敛与环境剥离执行_20261014.md)。旧版本按精确固定版本恢复；本分支执行代码、模型和配置不变。

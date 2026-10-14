@@ -1,3 +1,9 @@
+# 2026-10-14 分支生命周期导航
+
+仓库当前默认正式下游入口为 `codex/formal-analysis-v2-portable`，本分支为保留的生产入口 `nvidia-cuda-v8`。完整旧版本与环境剥离状态见 https://github.com/kyandi233-dev/Attention-Analysis/blob/codex/formal-analysis-v2-portable/docs/060-formal-analysis/020-分支收敛与环境剥离执行_20261014.md 。旧nvidia-cuda、rgb-amd及七算法分支按固定版本追溯；不重新创建旧工作分支。以下历史阶段描述不改变当前根README与实际运行包入口。数据、协议及历史保护规则继续有效。
+
+---
+
 # 2026-10-13 当前分支导航修正
 
 当前分支是 `nvidia-cuda-v8`，NVIDIA近红外第8版最终生产层；不是AMD工作分支。仓库当前默认分支是 `codex/formal-analysis-v2-portable`，当前方法/结果证据入口为 `FocusWave-Formal-Analysis@main`。本分支执行读取当前根README、`runtime/nir-formal/README.md`、`INSTALL.md`、实际配置与代码。
