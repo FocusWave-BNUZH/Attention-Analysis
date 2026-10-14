@@ -409,3 +409,7 @@ NVIDIA 已保留 native CPU reference ↔ CUDA Gate；跨 AMD/NVIDIA 时也应�
 - `docs/040-rgb/042-面部分析工具与Benchmark.md`
 
 临时分支 `codex/rgb-nvidia-formal-pipeline-v1` 当前仍保留，不在这里删除。
+
+## 2026-10-14 分支与历史版本入口
+
+[当前活动分支、完整历史版本及执行证据](https://github.com/kyandi233-dev/Attention-Analysis/blob/codex/formal-analysis-v2-portable/docs/060-formal-analysis/020-分支收敛与环境剥离执行_20261014.md)。旧版本按精确固定版本恢复；本分支执行代码、模型和配置不变。
