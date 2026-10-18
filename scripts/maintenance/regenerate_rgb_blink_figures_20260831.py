@@ -51,7 +51,7 @@ def fig_blink_timecourse():
     """眨眼率随 B1/B2 × 探针顺序的时间进程轨迹。"""
     f = pd.read_csv(RGB_FEAT)
     g = f.groupby(["block_id", "probe_order_in_block"])["blink_event_rate_per_min"].agg(["mean", "sem"]).reset_index()
-    fig, ax = make_figure(width="full", height_cm=4.6, nrows=1, ncols=1)
+    fig, ax = make_figure(width="full", height_cm=9.0, nrows=1, ncols=1)
     for i, (blk, c) in enumerate(zip(["B1", "B2"], PTOL[:2])):
         sub = g[g["block_id"] == blk].sort_values("probe_order_in_block")
         x = sub["probe_order_in_block"]
@@ -63,10 +63,10 @@ def fig_blink_timecourse():
     ax.set_ylabel("眨眼率（次/分）", fontsize=8)
     ax.tick_params(labelsize=7)
     ax.set_xticks(range(1, 11))
-    ax.legend(loc="lower left", bbox_to_anchor=(0.0, 1.02), fontsize=7, frameon=False)
+    ax.legend(loc="lower left", bbox_to_anchor=(0.0, 1.02), fontsize=6, frameon=False, ncol=1)
     panel_label(ax, "A")
     clean_axis(ax)
-    finalize_layout(fig, left=0.11, right=0.985, bottom=0.18, top=0.88)
+    finalize_layout(fig, left=0.11, right=0.985, bottom=0.22, top=0.80, wspace=0.3, hspace=0.36)
     return _save(fig, "fig_blink_timecourse")[0]
 
 
@@ -100,7 +100,7 @@ def fig_blink_association():
             r = r.iloc[0]
             rows.append((zh, r["estimate_per_predictor_sd"], r["ci_low"], r["ci_high"]))
 
-    fig, ax = make_figure(width="full", height_cm=4.6, nrows=1, ncols=1)
+    fig, ax = make_figure(width="full", height_cm=7.5, nrows=1, ncols=1)
     y_pos = list(range(len(rows)))[::-1]
     for y, (name, est, lo, hi) in zip(y_pos, rows):
         ax.errorbar(est, y, xerr=[[est - lo], [hi - est]], fmt="o", color=PTOL[0],

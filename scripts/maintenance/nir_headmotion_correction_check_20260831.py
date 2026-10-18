@@ -134,8 +134,8 @@ def main():
         resid = lp - np.polyval(coef, x)
         m2[k] = spearmanr(resid, x).correlation
 
-    # 画对比图
-    fig, ax = make_figure(width="full", height_cm=4.8, nrows=1, ncols=1)
+    # 画对比图（高度拉高，避免横向过扁）
+    fig, ax = make_figure(width="full", height_cm=8.5, nrows=1, ncols=1)
     keys = [k for k in HEAD_FIELDS if k in m0 and k in m2]
     labels = [HEAD_FIELDS[k] for k in keys]
     y = list(range(len(keys)))[::-1]
@@ -150,7 +150,7 @@ def main():
     ax.legend(loc="lower left", bbox_to_anchor=(0.0, 1.02), fontsize=7, frameon=False)
     panel_label(ax, "A")
     clean_axis(ax)
-    finalize_layout(fig, left=0.24, right=0.985, bottom=0.14, top=0.90)
+    finalize_layout(fig, left=0.24, right=0.985, bottom=0.20, top=0.78)
     os.makedirs(OUT_DIR, exist_ok=True)
     save_figure(fig, Path(OUT_DIR) / "fig_headmotion_check", FORMATS)
 

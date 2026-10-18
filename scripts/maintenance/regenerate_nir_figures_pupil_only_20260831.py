@@ -195,7 +195,7 @@ def _trend_arrays(vals_list):
 # 图 7：数据质量
 # =============================================================================
 def fig07_data_quality(df):
-    fig, axes = make_figure(width="full", height_cm=4.6, nrows=1, ncols=3)
+    fig, axes = make_figure(width="full", height_cm=6.2, nrows=1, ncols=3)
     panels = [("pupil_valid_fraction", "有效瞳孔帧比例", "A"), ("internal_coverage_fraction", "窗口内部时间覆盖", "B"),
               ("source_mode_binocular_fraction", "双眼轨道可用比例", "C")]
     for ax, (col, xlabel, lbl) in zip(axes, panels):
@@ -213,7 +213,7 @@ def fig07_data_quality(df):
 # 图 8：视觉控制
 # =============================================================================
 def fig08_visual_controls(vis):
-    fig, axes = make_figure(width="full", height_cm=4.4, nrows=1, ncols=4)
+    fig, axes = make_figure(width="full", height_cm=5.8, nrows=1, ncols=4)
     ax = axes[0]
     sizes = sorted(vis["stimulus_size"].dropna().unique())
     data_by_size = [vis.loc[vis["stimulus_size"] == s, "pupil_median"].dropna().to_numpy() for s in sizes]
@@ -244,7 +244,7 @@ def fig08_visual_controls(vis):
 # 图 9（新）：探针前 30s 原始瞳孔几何直径分组分布
 # =============================================================================
 def fig09_probe_states(trend):
-    fig, axes = make_figure(width="full", height_cm=4.6, nrows=1, ncols=2)
+    fig, axes = make_figure(width="full", height_cm=7.2, nrows=1, ncols=2)
     labels_map = [("probe_response", Q1_LABELS, "Q1 注意内容", "A"), ("probe_vigilance", Q2_LABELS, "Q2 警觉程度", "B")]
     for ax, (col, labels, title, lbl) in zip(axes, labels_map):
         series_by_code = []
@@ -278,7 +278,9 @@ TREND_COLORS = ["#4477AA", "#EE6677", "#228833", "#CCBB44"]
 # =============================================================================
 def fig_trend_overall(trend):
     """整体探针前 30s 原始瞳孔趋势（一条中位数 + IQR 带）。"""
-    fig, ax = make_figure(width="full", height_cm=5.4, nrows=1, ncols=1)
+    fig, ax = make_figure(width="full", height_cm=8.0, nrows=1, ncols=1)
+    # 画布向右扩大，确保外置图例完整显示不被截断
+    fig.set_size_inches(fig.get_size_inches()[0] * 1.7, fig.get_size_inches()[1])
     x, med, q25, q75 = _trend_arrays(trend["vals"].to_list())
     ax.plot(x, med, color=TREND_COLORS[0], linewidth=LW["line"], label="中位数")
     ax.fill_between(x, q25, q75, color=TREND_COLORS[0], alpha=0.15, linewidth=0, label="IQR 四分位距")
@@ -298,7 +300,9 @@ def fig_trend_overall(trend):
 
 def _trend_by_group(trend, col, labels, name):
     """按指定列（Q1/Q2）分组的探针前 30s 原始瞳孔趋势。"""
-    fig, ax = make_figure(width="full", height_cm=5.4, nrows=1, ncols=1)
+    fig, ax = make_figure(width="full", height_cm=8.0, nrows=1, ncols=1)
+    # 画布向右扩大，确保外置图例完整显示不被截断
+    fig.set_size_inches(fig.get_size_inches()[0] * 1.7, fig.get_size_inches()[1])
     band_all = []
     for i, code in enumerate(sorted(trend[col].dropna().unique())):
         sub = trend[trend[col] == code]["vals"]
@@ -315,7 +319,7 @@ def _trend_by_group(trend, col, labels, name):
     ax.set_xlabel("距探针时间（s）", fontsize=8)
     ax.set_ylabel(PUPIL_AXIS_ZH, fontsize=8)
     ax.tick_params(labelsize=7)
-    ax.legend(loc="upper left", bbox_to_anchor=(1.02, 1.0), fontsize=7, frameon=False, ncol=1)
+    ax.legend(loc="upper left", bbox_to_anchor=(1.02, 1.0), fontsize=6, frameon=False, ncol=1)
     panel_label(ax, "A")
     clean_axis(ax)
     finalize_layout(fig, left=0.10, right=0.80, bottom=0.18, top=0.92, wspace=0.3, hspace=0.36)
@@ -333,12 +337,58 @@ def fig_trend_q2(trend):
 
 
 # =============================================================================
+# 平滑版趋势图（滚动平均，保留锯齿原始版，另出平滑版作为补充）
+# =============================================================================
+def _smooth_vals(vals):
+    """对逐探针 30ms 序列做滑动平均，平滑高频锯齿。"""
+    return pd.Series(np.asarray(vals, dtype=float)).rolling(window=15, center=True, min_periods=1).mean().to_numpy()
+
+
+def _trend_by_group_smooth(trend, col, labels, name, panel="A"):
+    """平滑版：按指定列分组的探针前 30s 瞳孔趋势。"""
+    fig, ax = make_figure(width="full", height_cm=8.0, nrows=1, ncols=1)
+    fig.set_size_inches(fig.get_size_inches()[0] * 1.7, fig.get_size_inches()[1])
+    band_all = []
+    for i, code in enumerate(sorted(trend[col].dropna().unique())):
+        sub = trend[trend[col] == code]["vals"]
+        if sub.empty:
+            continue
+        vals_sm = [_smooth_vals(v) for v in sub.to_list()]
+        x, med, q25, q75 = _trend_arrays(vals_sm)
+        band_all.append(np.concatenate([q25, q75]))
+        c = TREND_COLORS[i % len(TREND_COLORS)]
+        ax.plot(x, med, color=c, linewidth=LW["line"], label=f"{labels.get(code, code)} (n={len(sub)})")
+        ax.fill_between(x, q25, q75, color=c, alpha=0.12, linewidth=0)
+    if band_all:
+        yall = np.concatenate(band_all)
+        ax.set_ylim(np.nanpercentile(yall, 5), np.nanpercentile(yall, 95))
+    ax.set_xlabel("距探针时间（s）", fontsize=11)
+    ax.set_ylabel(PUPIL_AXIS_ZH, fontsize=11)
+    ax.tick_params(labelsize=10)
+    ax.legend(loc="upper left", bbox_to_anchor=(1.02, 1.0), fontsize=10, frameon=False, ncol=1)
+    panel_label(ax, panel)
+    clean_axis(ax)
+    finalize_layout(fig, left=0.10, right=0.80, bottom=0.18, top=0.92, wspace=0.3, hspace=0.36)
+    return _save(fig, name)[0]
+
+
+def fig_trend_q1_smooth(trend):
+    """按 Q1 注意内容分组的平滑版趋势（上图 A）。"""
+    return _trend_by_group_smooth(trend, "probe_response", Q1_LABELS, "fig_trend_q1_smooth", panel="A")
+
+
+def fig_trend_q2_smooth(trend):
+    """按 Q2 警觉程度分组的平滑版趋势（下图 B）。"""
+    return _trend_by_group_smooth(trend, "probe_vigilance", Q2_LABELS, "fig_trend_q2_smooth", panel="B")
+
+
+# =============================================================================
 # 图 10：试次级效应分解
 # =============================================================================
 def fig10_trial_effect_forest(effects):
-    fig, axes = make_figure(width="full", height_cm=5.0, nrows=1, ncols=3)
+    fig, axes = make_figure(width="full", height_cm=6.5, nrows=1, ncols=3)
     rows = [("pupil_within", False), ("pupil_within", True), ("pupil_between", False), ("pupil_between", True)]
-    row_labels = ["参与者内·未调整", "参与者内·调整后", "参与者间·未调整", "参与者间·调整后"]
+    row_labels = ["参与者内\n未调整", "参与者内\n调整后", "参与者间\n未调整", "参与者间\n调整后"]
     y_pos = list(range(len(rows)))[::-1]
     for ax, outcome, lbl in zip(axes, ["rt", "omission", "commission"], ["A", "B", "C"]):
         sub = effects[effects["outcome"] == outcome]
@@ -358,7 +408,7 @@ def fig10_trial_effect_forest(effects):
         ax.set_xlabel("效应估计（95% CI）", fontsize=7)
         panel_label(ax, lbl)
         clean_axis(ax)
-    finalize_layout(fig, left=0.22, right=0.985, bottom=0.18, top=0.90, wspace=0.34, hspace=0.36)
+    finalize_layout(fig, left=0.24, right=0.985, bottom=0.18, top=0.90, wspace=0.52, hspace=0.36)
     return _save(fig, "fig10_trial_effect_forest")[0]
 
 
@@ -366,7 +416,7 @@ def fig10_trial_effect_forest(effects):
 # 图 19（旧）：六轨道稳健性
 # =============================================================================
 def fig19_tracks(wide):
-    fig, axes = make_figure(width="full", height_cm=5.0, nrows=1, ncols=3)
+    fig, axes = make_figure(width="full", height_cm=6.5, nrows=1, ncols=3)
     track_cols = ["双眼", "左眼", "右眼", "双眼·严格", "左眼·严格", "右眼·严格"]
     wide = wide.dropna(subset=track_cols)
     ax = axes[0]
@@ -401,7 +451,7 @@ def fig19_tracks(wide):
 # =============================================================================
 def fig_heatmap_pupil_behavior(left_row, right_row, behavior_labels):
     # 合并为一张：2 行（瞳孔几何平均直径 / 瞳孔面积比例）× 7 列（行为指标）
-    fig, ax = make_figure(width="full", height_cm=3.8, nrows=1, ncols=1)
+    fig, ax = make_figure(width="full", height_cm=6.5, nrows=1, ncols=1)
     mat = np.vstack([left_row, right_row])
     row_labels = ["瞳孔几何\n平均直径", "瞳孔\n面积比例"]
     vmax = max(0.2, np.nanmax(np.abs(mat)))
@@ -439,6 +489,7 @@ def main():
         fig07_data_quality(probe_df), fig08_visual_controls(vis_df), fig09_probe_states(trend_df),
         fig10_trial_effect_forest(effects_df), fig19_tracks(wide_tracks),
         fig_trend_overall(trend_df), fig_trend_q1(trend_df), fig_trend_q2(trend_df),
+        fig_trend_q1_smooth(trend_df), fig_trend_q2_smooth(trend_df),
         fig_heatmap_pupil_behavior(left_row, right_row, beh_labels),
     ]
     print("已生成图（new_figure/）：")

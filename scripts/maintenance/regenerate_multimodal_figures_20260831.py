@@ -60,7 +60,7 @@ def figD_marginal_contribution() -> str:
     """图 D：三模态平均边际贡献条形图（分结局与模型）。"""
     mc = pd.read_csv(os.path.join(MM_ROOT, "marginal", "marginal_contribution.csv"))
     mc = mc[mc["metric"] == "roc_auc_ovr_macro"]
-    fig, axes = make_figure(width="full", height_cm=5.2, nrows=2, ncols=2)
+    fig, axes = make_figure(width="full", height_cm=7.0, nrows=2, ncols=2)
     panels = [("q1", "logistic", axes[0, 0], "A"), ("q1", "random_forest", axes[0, 1], "B"),
               ("q2", "logistic", axes[1, 0], "C"), ("q2", "random_forest", axes[1, 1], "D")]
     for outcome, model, ax, lbl in panels:
@@ -83,7 +83,7 @@ def figD_marginal_contribution() -> str:
 
 def _progression_figure(ps, outcome, name):
     """单张全宽图：M0→M7 的 ROC-AUC 与宏 F1 提升轨迹（logistic + rf 两条）。"""
-    fig, ax = make_figure(width="full", height_cm=4.6, nrows=1, ncols=1)
+    fig, ax = make_figure(width="full", height_cm=7.8, nrows=1, ncols=1)
     for model in ["logistic", "random_forest"]:
         sub = ps[(ps["outcome"] == outcome) & (ps["model"] == model)]
         auc = [sub.loc[sub["combination"] == c, "roc_auc_ovr_macro_mean"].iloc[0] for c in COMBOS]
